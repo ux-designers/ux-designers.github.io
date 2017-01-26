@@ -1,0 +1,85 @@
+html{
+    font-size: 14px;
+    font-family: BentonSans;
+    overflow-x: hidden;
+}
+.navbar {
+	width: 100%;
+	height: 50px;
+	background-color: #343433;
+}
+.navbar_right{
+    float:right;
+    padding-right: 80px;
+}
+.navbar_element{
+    line-height:50px;
+    color:#fff;
+    text-decoration: none;
+    padding: 0 25px;
+}
+.navbar_element:hover{
+    color: #0093c6;
+}
+.hero_image{
+    width: 100%;
+    opacity: 0.5;
+	background-image: linear-gradient(to bottom, #999999, #89b0de);
+	border: solid 1px #979797;
+    background-color: #999999;
+    height: 525px;
+}
+.hero_image_header{
+    font-size: 55px;
+	font-weight: 300;
+    color: #fff;
+    padding: 0 10%;
+    padding-top: 200px;
+    text-align: center;
+    height: 100%;
+    
+}
+.intro_header{
+    margin-top: 50px;
+    margin-bottom:20px;
+    padding: 0 20%;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+p{
+    font-size:20px;
+    color: #4a4a4a;
+}
+.icon{
+    font-size:25px;
+    
+}
+.divider{
+    border: solid 1px #dcdcdc;
+}
+.who_we_are{
+    margin: 0 auto;
+    margin-top:50px;
+}
+.number{
+    border-radius: 100%;
+    width: 40px;
+	height: 40px;
+	background-color: #0093c6;
+    line-height: 40px;
+    text-align: center;
+    font-family: BentonSans-Book;
+	font-size: 25px;
+    color:#fff;
+    margin: 0 auto;
+    margin-bottom:10px;
+}
+h1{
+    font-family: BentonSans-Book;
+    font-size: 25px;
+    color: #0093c6;
+    text-align: center;
+}
