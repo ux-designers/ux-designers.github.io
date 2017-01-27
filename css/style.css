@@ -1,7 +1,8 @@
 html{
     font-size: 14px;
-    font-family: BentonSans;
+    font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    font-weight: 300;
 }
 .navbar {
 	width: 100%;
@@ -21,23 +22,29 @@ html{
 .navbar_element:hover{
     color: #0093c6;
 }
-.hero_image{
+.image_overlay{
     width: 100%;
+    height: 100%;
     opacity: 0.5;
-	background-image: linear-gradient(to bottom, #999999, #89b0de);
-	border: solid 1px #979797;
-    background-color: #999999;
-    height: 525px;
+    background-image: linear-gradient(to bottom, #aeaeae, #89b0de);
 }
+.hero_image{
+   width: 100%;
+    background-image: url(../img/office.jpg);
+    background-position: center;
+    background-size: 150%;
+    height: 500px;
+}
+
 .hero_image_header{
-    font-size: 55px;
+    font-size: 50px;
 	font-weight: 300;
     color: #fff;
     padding: 0 10%;
-    padding-top: 200px;
+    position: relative;
+    bottom:300px;
     text-align: center;
     height: 100%;
-    
 }
 .intro_header{
     margin-top: 50px;
@@ -48,6 +55,7 @@ html{
 h2{
     font-size: 30px;
     padding-bottom: 50px;
+    font-weight: 200;
 }
 p{
     font-size:20px;
@@ -59,10 +67,14 @@ p{
 }
 .divider{
     border: solid 1px #dcdcdc;
+    margin: 20px 0;
 }
 .who_we_are{
     margin: 0 auto;
+}
+.header{
     margin-top:50px;
+    margin-bottom: 100px;
 }
 .number{
     border-radius: 100%;
@@ -71,15 +83,67 @@ p{
 	background-color: #0093c6;
     line-height: 40px;
     text-align: center;
-    font-family: BentonSans-Book;
 	font-size: 25px;
     color:#fff;
     margin: 0 auto;
     margin-bottom:10px;
 }
 h1{
-    font-family: BentonSans-Book;
-    font-size: 25px;
+    font-size: 30px;
     color: #0093c6;
     text-align: center;
+}
+.who_we_are_content{
+    height: 600px;
+    background-color: #dcdcdc;
+}
+.check_out{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.check_out p{
+    color: #9b9b9b;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom:20px;
+}
+.check_out a{
+    color: #00e56b;
+    text-decoration:none;
+}
+
+.section_footer_image{
+    width: 100%;
+    background-image: url(../img/office.jpg);
+    background-position: center;
+    background-size: 150%;
+    height: 500px;
+}
+.roles{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    
+}
+.role{
+    width: 300px;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.role img{
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    border: 3px solid darkgray;
+    border-radius: 100%;
+}
+.title{
+    padding-top: 20px;
+}
+.description{
+    padding: 0 50px;
+    padding-top: 30px;
 }
