@@ -247,8 +247,61 @@ h1{
 .item i{
     opacity: 0;
 }
+.item.bridge{
+    background-image: url(../img/bridge_background.png);
+    background-size: 100%;
+    transition: ease all 0.5s;
+}
+.item.bridge:hover{
+    background-size:200%;
+    transition: ease all 0.5s;
+}
+.item.bridge:hover .name img{
+    width: 110px;
+    transition: ease all 1s;
+}
 .item.bridge .name img{
-    width: 150px;
+    width: 120px;
     position: relative;
     top: 80px;
+    transition: ease all 1s;
+}
+.item.cla{
+    background-color: #fff;
+}
+.item.cla .name img{
+    width: 120px;
+    position: relative;
+    top: 85px;
+    transition: ease all 1s;
+}
+.item.cla:hover .name img{
+    width: 110px;
+    transition: ease all 1s;
+}
+
+
+
+
+/*#####  PROJECT SITES   #####*/
+
+.project_header{
+    height: 200px;
+    background-image: url(../img/bridge_project_bg.png);
+    text-align:center;
+}
+.project_header img{
+    width: 70px;
+    margin: 0 auto;
+    position: relative;
+    top: 65px;
+}
+.project_title{
+    margin-top: 80px;
+}
+.project_descr{
+    text-align: center;
+    padding: 0 20%;
+    margin-top: 50px;
+    line-height: 30px;
 }
