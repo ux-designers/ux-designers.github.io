@@ -8,6 +8,21 @@ html{
 	width: 100%;
 	height: 50px;
 	background-color: #343433;
+    
+}
+.navbar_left{
+    float: left;
+    height: 100%;
+}
+.navbar_left p{
+    float: right;
+    color:#fff;
+    font-size: 14px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.navbar_left img{
+    padding: 10px 0 0 100px ;
 }
 .navbar_right{
     float:right;
@@ -29,28 +44,31 @@ html{
     background-image: linear-gradient(to bottom, #aeaeae, #89b0de);
 }
 .hero_image{
-   width: 100%;
+    width: 100%;
     background-image: url(../img/office.jpg);
-    background-position: center;
-    background-size: 150%;
+    
+    background-position: 0% 60%;
+    background-size: 200%;
     height: 500px;
 }
 
 .hero_image_header{
-    font-size: 50px;
+    font-size: 40px;
 	font-weight: 300;
     color: #fff;
     padding: 0 10%;
     position: relative;
-    bottom:300px;
+    bottom:330px;
     text-align: center;
     height: 100%;
+    line-height: 60px;
 }
 .intro_header{
     margin-top: 50px;
     margin-bottom:20px;
     padding: 0 20%;
     text-align: center;
+    line-height: 45px;
 }
 h2{
     font-size: 30px;
@@ -72,21 +90,34 @@ p{
 .who_we_are{
     margin: 0 auto;
 }
+
 .header{
     margin-top:50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .number{
     border-radius: 100%;
-    width: 40px;
-	height: 40px;
+    width: 100px;
+	height: 100px;
 	background-color: #0093c6;
-    line-height: 40px;
+    line-height: 100px;
     text-align: center;
-	font-size: 25px;
+	font-size: 40px;
     color:#fff;
     margin: 0 auto;
     margin-bottom:10px;
+   
+}
+.number img{
+    width: 20px;
+    position: relative;
+    top: 15px;
+}
+.subheader{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #9b9b9b;
 }
 h1{
     font-size: 30px;
@@ -94,8 +125,19 @@ h1{
     text-align: center;
 }
 .who_we_are_content{
-    height: 600px;
-    background-color: #dcdcdc;
+    text-align: center;
+    padding: 0 20%;
+    line-height: 30px;
+}
+.who_we_are img{
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    right: 8%;
+    min-width: 500px;
+    max-width: 700px;
+
 }
 .check_out{
     text-align: center;
@@ -125,25 +167,88 @@ h1{
     display: flex;
     flex-flow: row wrap;
     text-align: center;
-    
+    margin-top: 100px;
 }
 .role{
     width: 300px;
     height: 100%;
-    margin: auto;
+    margin: 0 auto;
     margin-bottom: 100px;
+    text-align: center;
 }
-.role img{
+.role .image{
     height: 80px;
     width: 80px;
     background-color: #000;
-    border: 3px solid darkgray;
+    border: 5px solid darkgray;
     border-radius: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.image img{
+    margin-top: 10px;
 }
 .title{
     padding-top: 20px;
+    font-weight: 900;
+    font-size: 15px;
 }
 .description{
-    padding: 0 50px;
+    padding: 0 25px;
     padding-top: 30px;
+    line-height: 25px;
+}
+.quote{
+    padding: 50px 100px;
+    background-color: #343433;
+    text-align: center;
+    color: #0093c6;
+}
+.quote p{
+    font-size: 30px;
+	font-weight: 300;
+    color: #0093c6;
+    line-height: 60px;
+}
+.quote i{
+    font-size: 20px;
+}
+.triangle{
+  
+    width: 0px;
+    height: 0px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 20px solid #343433;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+}
+.portfolio{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    
+}
+.item{
+    width: 50%;
+    min-width: 400px;
+    height: 300px;
+    background-color: #999;
+    margin: 0 auto;
+}
+.item .name{
+    line-height: 200px;
+    font-size: 40px;
+}
+.item .descr{
+    opacity: 0;
+}
+.item i{
+    opacity: 0;
+}
+.item.bridge .name img{
+    width: 150px;
+    position: relative;
+    top: 80px;
 }
