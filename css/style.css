@@ -164,6 +164,7 @@ h1{
     background-image: url(../img/office.jpg);
     background-position: 0% 60%;
     background-size: 200%;
+    background-repeat: no-repeat;
     height: 500px;
 }
 .roles{
