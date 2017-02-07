@@ -400,12 +400,13 @@ h1{
         display: none;
     }
     .hero_image{
-        height: 350px;
+        height: 400px;
     }
 
     .hero_image_header{
         bottom:440px;
         font-size: 30px;
+        line-height: 40px;
     }
        .hero_image .hero_image_header{
         bottom:290px;
