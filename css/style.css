@@ -25,7 +25,7 @@ a{
     padding-left: 10px;
 }
 .navbar_left img{
-    padding: 10px 0 0 100px ;
+    padding: 10px 0 0 10px ;
 }
 .navbar_right{
     float:right;
@@ -399,11 +399,16 @@ h1{
     .who_we_are img{
         display: none;
     }
+    .hero_image{
+        height: 350px;
+    }
+
     .hero_image_header{
         bottom:440px;
-    }
-    .hero_image_header{
         font-size: 30px;
+    }
+       .hero_image .hero_image_header{
+        bottom:290px;
     }
 }
 
