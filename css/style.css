@@ -230,15 +230,29 @@ h1{
     margin: 0 auto;
 }
 .portfolio{
-    display: flex;
+    display: block;
+
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    
+
+    
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    
     text-align: center;
     
 }
 .item{
+    
     width: 50%;
     min-width: 400px;
     height: 300px;
+    flex: 1;
+    -webkit-flex:1 1 400px;
     background-color: #999;
     margin: 0 auto;
     cursor: pointer;
