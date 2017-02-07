@@ -233,12 +233,10 @@ h1{
 .portfolio{
     display: block;
 
-    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    display: -webkit-flex; 
+    display: flex;         
     
-
+    
     
     -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
@@ -252,6 +250,7 @@ h1{
     width: 50%;
     min-width: 400px;
     height: 300px;
+
     flex: 1;
     -webkit-flex:1 1 400px;
     background-color: #999;
@@ -267,6 +266,7 @@ h1{
     position: relative;
     bottom:0px;
     transition: ease all 0.5s;
+    color: #fff;
 }
 
 
@@ -274,6 +274,7 @@ h1{
     background-image: url(../img/bridge_background.png);
     background-size: 120%;
     transition: ease all 0.5s;
+    background-repeat: no-repeat;
 }
 .item.bridge:hover{
     background-size:200%;
@@ -305,22 +306,56 @@ h1{
 .item.cla:hover .descr{
     color: #000;
 }
-
-
-
-
-/*#####  PROJECT SITES   #####*/
-
+.item.mailwave{
+    background-color: #fff;
+    background-image: url(../img/mailwave_project_bg.png);
+    background-size: 200%;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: ease all 0.5s;
+}
+.item.mailwave .descr{
+    color: #000;
+}
+.item.mailwave:hover{
+    background-size: 220%;
+    transition: ease all 0.5s;
+}
+.item.tobi{
+    background-color: #4a4a4a;
+}
+.item.tobi .name img{
+    width: 150px;
+    top: 50px;
+}
+.item.tobi:hover .name img{
+    top: 40px;
+}
 .project_header{
     height: 200px;
-    background-image: url(../img/bridge_project_bg.png);
+    
     text-align:center;
+}
+.project_header.bridge{
+    background-image: url(../img/bridge_project_bg.png);
+}
+.project_header.cla{
+    background-image: url(../img/cla_project_bg.png);
+}
+.project_header.mailwave{
+    background-image: url(../img/mailwave_project_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.project_header.tobi{
+    background-color:#4a4a4a;
 }
 .project_header img{
     width: 70px;
     margin: 0 auto;
     position: relative;
     top: 65px;
+    
 }
 .project_title{
     margin-top: 80px;
@@ -333,8 +368,10 @@ h1{
 }
 .project_image{
     padding: 0 20%;
+    margin: 0 auto;
     margin-top: 100px;
     max-width: 1000px;
+    text-align: center;
 }
 .project_image img{
      margin: 0 auto;
