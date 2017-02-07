@@ -4,6 +4,9 @@ html{
     overflow-x: hidden;
     font-weight: 300;
 }
+a{
+    text-decoration: none;
+}
 .navbar {
 	width: 100%;
 	height: 50px;
@@ -221,7 +224,7 @@ h1{
     border-right: 40px solid transparent;
     border-top: 20px solid #343433;
     position: relative;
-    top: 70px;
+    top: 65px;
     margin: 0 auto;
 }
 .portfolio{
@@ -236,6 +239,7 @@ h1{
     height: 300px;
     background-color: #999;
     margin: 0 auto;
+    cursor: pointer;
 }
 .item .name{
     line-height: 200px;
@@ -304,4 +308,73 @@ h1{
     padding: 0 20%;
     margin-top: 50px;
     line-height: 30px;
+}
+.project_image{
+    padding: 0 20%;
+    margin-top: 100px;
+    max-width: 1000px;
+}
+.project_image img{
+     margin: 0 auto;
+     width: 100%;
+}
+.btn{
+    padding: 20px 20px;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #343433;
+    background-color: rgba(0, 0, 0, 0)
+    -webkit-transition: ease all 0.5s;
+    -moz-transition: ease all 0.5s;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.1)
+}
+.btn p{
+    font-size: 18px;
+}
+.btn.blue{
+    border-color: #0093c6;
+}
+.blue p{
+    color: #0093c6;
+}
+
+/*##### FOOTER #####*/
+
+.footer_container{
+    background-color: #343433;
+    padding: 20px 0;
+    color: #d5d5d5;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer_container img{
+    width: 30px;
+}
+.footer_container p{
+    color: #d5d5d5;
+    font-size: 15px;
+    line-height: 20px;
+}
+.medium_link{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.medium_link i{
+    color: #fff;
+}
+.medium_link a{
+    text-decoration: none;
+    color: #d5d5d5;
+}
+.medium_link a:hover{
+    color: #fff;
+}
+.footer_copy{
+    margin-top: 30px;
 }
