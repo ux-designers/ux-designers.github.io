@@ -345,7 +345,8 @@ h1{
 .project_header.mailwave{
     background-image: url(../img/mailwave_project_bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 150%;
+    background-position: 0 100%;
 }
 .project_header.tobi{
     background-color:#4a4a4a;
@@ -359,6 +360,7 @@ h1{
 }
 .project_title{
     margin-top: 80px;
+    padding:0 50px;
 }
 .project_descr{
     text-align: center;
@@ -453,6 +455,12 @@ h1{
     }
        .hero_image .hero_image_header{
         bottom:290px;
+    }
+    .project_descr{
+        padding: 0 10px;
+    }
+    .project_title{
+        padding: 0 10px;
     }
 }
 
