@@ -402,5 +402,8 @@ h1{
     .hero_image_header{
         bottom:440px;
     }
+    .hero_image_header{
+        font-size: 30px;
+    }
 }
 
