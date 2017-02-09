@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="843px" height="784px" viewBox="0 0 843 784" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>72B2C216-B4FE-4B54-A7CB-7DABC300D3D8</title>
+    <title>4F7E4420-817C-47C5-9D22-F17B53B45E80</title>
     <desc>Created with sketchtool.</desc>
     <defs></defs>
     <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-svgs" transform="translate(-167.000000, -1827.000000)">
-            <g id="Group-31" transform="translate(167.000000, 1813.000000)">
-                <text id="SAP-Tools-1-WDF-Wall" font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" line-spacing="24" fill="#0093C6">
-                    <tspan x="479.855469" y="498">SAP Tools 1 WDF </tspan>
+        <g id="Desktop-HD-P&amp;I" transform="translate(-178.000000, -1838.000000)">
+            <g id="Group-7" transform="translate(178.000000, 1824.000000)">
+                <text id="P&amp;I-Tools-1-WDF-Wall" font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" line-spacing="24" fill="#0093C6">
+                    <tspan x="482.746094" y="498">P&amp;I Tools 1 WDF </tspan>
                     <tspan x="471.056641" y="522">Walldorf, Germany</tspan>
                 </text>
                 <text id="SAP-Labs-Silicon-Val" font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" fill="#4A4A4A">
@@ -62,13 +62,13 @@
                     </g>
                 </g>
                 <text id="THIS-IS-US" font-family="BentonSans-Bold, BentonSans" font-size="16" font-weight="bold" fill="#0093C6">
-                    <tspan x="344" y="684">THIS IS US</tspan>
+                    <tspan x="340" y="684">THIS IS US</tspan>
                 </text>
                 <text id="AROUND-THE-WORLD" font-family="BentonSans-Bold, BentonSans" font-size="16" font-weight="bold" fill="#4A4A4A">
-                    <tspan x="2" y="386">AROUND THE WORLD</tspan>
+                    <tspan x="0" y="386">AROUND THE WORLD</tspan>
                 </text>
-                <text id="SAP-TOOLS-TEAM" font-family="BentonSans-Bold, BentonSans" font-size="16" font-weight="bold" fill="#4A4A4A">
-                    <tspan x="6" y="88">SAP TOOLS TEAM</tspan>
+                <text id="P&amp;I-TOOLS-TEAM" font-family="BentonSans-Bold, BentonSans" font-size="16" font-weight="bold" fill="#4A4A4A">
+                    <tspan x="5" y="88">P&amp;I TOOLS TEAM</tspan>
                 </text>
                 <g id="Group-15" transform="translate(407.269377, 547.700390) rotate(15.000000) translate(-407.269377, -547.700390) translate(376.769377, 489.700390)" stroke="#979797">
                     <path d="M-26.1204979,30.7195827 C-19.093981,45.6514618 12.6195695,98.4735224 84.9742384,87.6249813" id="Path-3" transform="translate(29.426870, 59.900561) scale(-1, -1) rotate(-90.000000) translate(-29.426870, -59.900561) "></path>
@@ -110,8 +110,8 @@
                 <text id="SAP" font-family="BentonSans-Bold, BentonSans" font-size="35" font-weight="bold" fill="#4A4A4A">
                     <tspan x="517.077148" y="41">SAP</tspan>
                 </text>
-                <text id="SAP-tools" font-family="BentonSans-Medium, BentonSans" font-size="18" font-weight="400" fill="#000000">
-                    <tspan x="615" y="312">SAP tools</tspan>
+                <text id="SAP-Tools" font-family="BentonSans-Medium, BentonSans" font-size="18" font-weight="400" fill="#000000">
+                    <tspan x="615" y="312">SAP Tools</tspan>
                 </text>
                 <text id="" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#4A4A4A">
                     <tspan x="7" y="52"></tspan>
