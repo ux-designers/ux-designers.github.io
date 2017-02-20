@@ -180,7 +180,7 @@ h1{
     margin-top: 100px;
 }
 .role{
-    width: 300px;
+    width: 450px;
     height: 100%;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -211,6 +211,7 @@ h1{
 .quote{
     padding: 50px 100px;
     background-color: #343433;
+    padding-top: 80px;
     text-align: center;
     color: #fff;
 }
