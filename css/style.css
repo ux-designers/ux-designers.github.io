@@ -55,6 +55,15 @@ a{
     height: 500px;
 }
 
+.hero_image2{
+    width: 100%;
+    background-image: url(../img/office2.jpg);
+    
+    background-position: 0% 60%;
+    background-size: 200%;
+    height: 500px;
+}
+
 .hero_image_header{
     font-size: 40px;
 	font-weight: 300;
