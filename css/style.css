@@ -318,9 +318,7 @@ h1{
 
 .item.cla{
     background-color: #fff;
-}
-.item.cla:hover .descr{
-    color: #000;
+v
 }
 .item.mailwave{
     background-color: #fff;
@@ -346,6 +344,29 @@ h1{
 }
 .item.tobi:hover .name img{
     top: 40px;
+}
+.item.ppmslight{
+    background-color: #313D4D;
+}
+.item.ppmslight.name img{
+    width: 150px;
+    top: 50px;
+}
+.item.ppmslight:hover .name img{
+    top: 40px;
+}
+.item.navigator{
+    background-color: #fff;
+}
+.item.navigator.name img{
+    width: 150px;
+    top: 50px;
+}
+.item.navigator:hover .name img{
+    top: 40px; 
+}
+.item.navigator:hover .descr{
+    color: #000;       
 }
 .project_header{
     height: 200px;
