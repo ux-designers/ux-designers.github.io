@@ -318,7 +318,10 @@ h1{
 
 .item.cla{
     background-color: #fff;
-v
+}
+.item.cla:hover .descr{
+    color: #000;      
+
 }
 .item.mailwave{
     background-color: #fff;
