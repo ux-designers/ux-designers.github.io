@@ -474,6 +474,28 @@ h1{
     font-size: 15px;
     line-height: 20px;
 }
+
+.footerlinks {
+    background-color: #343433;
+    padding: 20px 0;
+    color: #d5d5d5;
+    text-align: center;
+}
+
+.footerlinks li {
+    display: inline-block;
+    width: 150px;
+}
+
+.footerlinks a {
+    text-decoration:none;
+    color: #d5d5d5;
+}
+
+.footerlinks a:hover{
+    color: #fff;
+}
+
 .medium_link{
     margin-top: 30px;
     margin-bottom: 20px;
