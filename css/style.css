@@ -391,6 +391,9 @@ h1{
 .project_header.bridge{
     background-image: url(../img/bridge_project_bg.png);
 }
+.project_header.sirius{
+    background-image: url(../img/sirius-bg.png)
+}
 .project_header.cla{
     background-image: url(../img/cla_project_bg.png);
 }
