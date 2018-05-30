@@ -296,7 +296,19 @@ h1{
     background-size:200%;
     transition: ease all 0.5s;
 }
-
+.item.sirius{
+    background-image: url(../img/sirius-bg.png);
+    background-size: 200%;
+    transition: ease all 0.5s;
+    background-repeat: no-repeat;
+}
+.item.sirius.hover{
+    background-size: 300%;
+    transition: ease all 0.5s;
+}
+.item.sirius img{
+    margin-bottom: 20px;
+}
 .item .name img{
     width: 120px;
     position: relative;
@@ -425,7 +437,7 @@ h1{
     width: 150px;
     text-align: center;
     border: 1px solid #343433;
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(0, 0, 0, 0);
     -webkit-transition: ease all 0.5s;
     -moz-transition: ease all 0.5s;
     transition: ease all 0.5s;
