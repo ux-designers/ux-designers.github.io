@@ -1,122 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="843px" height="784px" viewBox="0 0 843 784" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>4F7E4420-817C-47C5-9D22-F17B53B45E80</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-P&amp;I" transform="translate(-178.000000, -1838.000000)">
-            <g id="Group-7" transform="translate(178.000000, 1824.000000)">
-                <text id="P&amp;I-Tools-1-WDF-Wall" font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" line-spacing="24" fill="#0093C6">
-                    <tspan x="482.746094" y="498">P&amp;I Tools 1 WDF </tspan>
-                    <tspan x="471.056641" y="522">Walldorf, Germany</tspan>
-                </text>
-                <text id="SAP-Labs-Silicon-Val" font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" fill="#4A4A4A">
-                    <tspan x="633" y="410">SAP Labs Silicon Valley</tspan>
-                    <tspan x="633" y="434">Palo Alto, USA</tspan>
-                </text>
-                <text id="SAP-Labs-Bangalore," font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" fill="#4A4A4A">
-                    <tspan x="383.763672" y="409">SAP Labs </tspan>
-                    <tspan x="324.818359" y="433">Bangalore, India</tspan>
-                </text>
-                <path d="M553.5,78.5 L553.5,235.5" id="Line-Copy-4" stroke="#4A4A4A" stroke-width="3" stroke-linecap="square"></path>
-                <path d="M553.5,362 L553.5,432" id="Line-Copy-11" stroke="#0093C6" stroke-width="3" stroke-linecap="square"></path>
-                <path d="M551.359895,362 L481.36007,362.156623" id="Line-Copy-20" stroke="#FBBA00" stroke-width="3" stroke-linecap="square"></path>
-                <path d="M556,362 L625.999825,362.156623" id="Line-Copy-21" stroke="#F05053" stroke-width="3" stroke-linecap="square"></path>
-                <circle id="Oval-3-Copy-3" fill="#F05053" cx="634.5" cy="363.5" r="7.5"></circle>
-                <circle id="Oval-3-Copy-4" fill="#FBBA00" cx="477.5" cy="363.5" r="7.5"></circle>
-                <circle id="Oval-3-Copy-5" fill="#4A4A4A" cx="554" cy="237" r="6"></circle>
-                <circle id="Oval-3-Copy-7" fill="#4A4A4A" cx="554" cy="74" r="6"></circle>
-                <circle id="Oval-3-Copy-6" fill="#0093C6" cx="553.5" cy="439.5" r="7.5"></circle>
-                <g id="aa148240aa860b035061922161e9ebaa-copy-2" transform="translate(525.000000, 275.000000)">
-                    <g id="8F88DBBF-E723-4BAE-910E-41F7F41145B2">
-                        <g id="Final">
-                            <g id="Landing-Page">
-                                <g id="Group-24-Copy">
-                                    <g id="Group-29">
-                                        <g id="Group-21">
-                                            <g id="About-us">
-                                                <g id="Tools-logo">
-                                                    <g id="Group-4-Copy-4">
-                                                        <g id="Group-2" transform="translate(0.643825, 0.000000)">
-                                                            <rect id="Rectangle" x="0" y="0.0420598154" width="60.0527792" height="59.2211169"></rect>
-                                                            <g id="Group" transform="translate(2.941361, 1.076418)">
-                                                                <g id="Group-3">
-                                                                    <path d="M24.0682106,44.192149 C24.0579196,49.481853 28.3801583,52.8178139 33.5853625,51.5379838 L43.49719,49.1009122 L42.9635053,46.9900635 L33.0516779,49.427135 C29.2400349,50.3643231 26.2666919,48.0694576 26.274227,44.1963227 L26.3496868,5.40935193 L24.1436704,5.40517819 L24.0682106,44.192149 Z" id="Line" fill="#4A4A4A"></path>
-                                                                    <path d="M36.1220595,48.0454878 C36.1220595,44.1740497 39.3045417,41.0356413 43.2303476,41.0356413 C47.1561537,41.0356413 50.3386358,44.1740497 50.3386358,48.0454878 C50.3386358,51.9169259 47.1561537,55.0553343 43.2303476,55.0553343 C39.3045417,55.0553343 36.1220595,51.9169259 36.1220595,48.0454878 Z" id="Shape" fill="#FBBA00"></path>
-                                                                    <path d="M18.1383904,7.1840832 C18.1383904,3.31264511 21.3208725,0.174236696 25.2466785,0.174236696 C29.1724845,0.174236696 32.3549667,3.31264511 32.3549667,7.1840832 C32.3549667,11.0555213 29.1724845,14.1939297 25.2466785,14.1939297 C21.3208725,14.1939297 18.1383904,11.0555213 18.1383904,7.1840832 Z" id="Shape" fill="#0093C6" transform="translate(25.246679, 7.184083) rotate(-90.000000) translate(-25.246679, -7.184083) "></path>
-                                                                    <path d="M43.3071217,28.3638176 L43.3071217,28.3638176 C39.3813157,28.3638176 36.1988336,25.2254091 36.1988336,21.3539711 L36.1988336,21.3539711 C36.1988336,17.482533 39.3813157,14.3441246 43.3071217,14.3441246 L43.3071217,14.3441246 C47.2329277,14.3441246 50.4154098,17.482533 50.4154098,21.3539711 L50.4154098,21.3539711 C50.4154098,25.2254091 47.2329277,28.3638176 43.3071217,28.3638176 L43.3071217,28.3638176 Z" id="Shape" fill="#4A4A4A"></path>
-                                                                    <polygon id="Line" fill="#4A4A4A" points="42.3848017 22.7017809 41.8511171 20.590932 8.07890637 28.8946776 8.61259102 31.0055265"></polygon>
-                                                                    <path d="M7.16383392,37.2809998 L7.16383392,37.2809998 C3.23802792,37.2809998 0.0555457717,34.1425914 0.0555457717,30.2711533 L0.0555457717,30.2711533 C0.0555457717,26.3997152 3.23802792,23.2613068 7.16383392,23.2613068 L7.16383392,23.2613068 C11.0896399,23.2613068 14.2721221,26.3997152 14.2721221,30.2711533 L14.2721221,30.2711533 C14.2721221,34.1425914 11.0896399,37.2809998 7.16383392,37.2809998 L7.16383392,37.2809998 Z" id="Shape" fill="#F05053"></path>
-                                                                </g>
-                                                            </g>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-                <text id="THIS-IS-US" font-family="BentonSans-Bold, BentonSans" font-size="16" font-weight="bold" fill="#0093C6">
-                    <tspan x="340" y="684">THIS IS US</tspan>
-                </text>
-                <text id="AROUND-THE-WORLD" font-family="BentonSans-Bold, BentonSans" font-size="16" font-weight="bold" fill="#4A4A4A">
-                    <tspan x="0" y="386">AROUND THE WORLD</tspan>
-                </text>
-                <text id="P&amp;I-TOOLS-TEAM" font-family="BentonSans-Bold, BentonSans" font-size="16" font-weight="bold" fill="#4A4A4A">
-                    <tspan x="5" y="88">P&amp;I TOOLS TEAM</tspan>
-                </text>
-                <g id="Group-15" transform="translate(407.269377, 547.700390) rotate(15.000000) translate(-407.269377, -547.700390) translate(376.769377, 489.700390)" stroke="#979797">
-                    <path d="M-26.1204979,30.7195827 C-19.093981,45.6514618 12.6195695,98.4735224 84.9742384,87.6249813" id="Path-3" transform="translate(29.426870, 59.900561) scale(-1, -1) rotate(-90.000000) translate(-29.426870, -59.900561) "></path>
-                    <polyline id="Path-5" transform="translate(55.576545, 5.947001) scale(-1, -1) rotate(-113.000000) translate(-55.576545, -5.947001) " points="51.2808876 9.77421222 55.2833969 2.11978895 59.8722026 8.64837181"></polyline>
-                </g>
-                <g id="Group-15-Copy" transform="translate(304.729734, 356.615832) rotate(-299.000000) translate(-304.729734, -356.615832) translate(253.729734, 261.115832)" stroke="#979797">
-                    <path d="M-42.7361198,47.9255804 C-35.7096029,62.8574594 36.984074,166.312466 143.180236,143.398952" id="Path-3" transform="translate(50.222058, 97.311371) scale(-1, -1) rotate(-90.000000) translate(-50.222058, -97.311371) "></path>
-                    <polyline id="Path-5" transform="translate(96.576545, 5.947001) scale(-1, -1) rotate(-113.000000) translate(-96.576545, -5.947001) " points="92.2808876 9.77421222 96.2833969 2.11978895 100.872203 8.64837181"></polyline>
-                </g>
-                <g id="Group-19" transform="translate(342.000000, 173.000000)" stroke="#979797">
-                    <path d="M4.88272512,38.1189014 C11.909242,53.0507804 77.2012553,131.551648 171.152203,87.5807481" id="Path-3" transform="translate(88.017464, 69.463064) scale(-1, -1) rotate(-150.000000) translate(-88.017464, -69.463064) "></path>
-                    <polyline id="Path-5" transform="translate(148.187039, 126.612875) scale(1, -1) rotate(-265.000000) translate(-148.187039, -126.612875) " points="143.891382 130.440086 147.893891 122.785663 152.482697 129.314246"></polyline>
-                </g>
-                <text id="A-healthy-mix-of-des" font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" fill="#4A4A4A">
-                    <tspan x="5" y="125">A healthy mix of designers, engineers, data </tspan>
-                    <tspan x="5" y="149">scientists, writers &amp; product managers.</tspan>
-                </text>
-                <text id="We-work-as-discrete" font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" fill="#4A4A4A">
-                    <tspan x="0" y="423">We work as discrete teams </tspan>
-                    <tspan x="0" y="447">around the world, but </tspan>
-                    <tspan x="0" y="471">we share a common goal </tspan>
-                    <tspan x="0" y="495">of creating top-notch </tspan>
-                    <tspan x="0" y="519">experiences for our </tspan>
-                    <tspan x="0" y="543">internal customers and </tspan>
-                    <tspan x="0" y="567">users.</tspan>
-                </text>
-                <text id="We-in-Walldorf-opera" font-family="BentonSans-Book, BentonSans" font-size="20" font-weight="300" fill="#0093C6">
-                    <tspan x="340" y="721">We in Walldorf operate as a fairly autonomous </tspan>
-                    <tspan x="340" y="745">team within SAP, designing and building a </tspan>
-                    <tspan x="340" y="769">variety of products and services mostly for </tspan>
-                    <tspan x="340" y="793">internal usage.</tspan>
-                </text>
-                <text id="" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#4A4A4A">
-                    <tspan x="5" y="349"></tspan>
-                </text>
-                <text id="" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#0093C6">
-                    <tspan x="346" y="647"></tspan>
-                </text>
-                <text id="SAP" font-family="BentonSans-Bold, BentonSans" font-size="35" font-weight="bold" fill="#4A4A4A">
-                    <tspan x="517.077148" y="41">SAP</tspan>
-                </text>
-                <text id="SAP-Tools" font-family="BentonSans-Medium, BentonSans" font-size="18" font-weight="400" fill="#000000">
-                    <tspan x="615" y="312">SAP Tools</tspan>
-                </text>
-                <text id="" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#4A4A4A">
-                    <tspan x="7" y="52"></tspan>
-                </text>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 843 784" style="enable-background:new 0 0 843 784;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0093C6;}
+	.st1{font-family:'BentonSans-Light';}
+	.st2{font-size:20px;}
+	.st3{fill:#4A4A4A;}
+	.st4{fill:none;stroke:#4A4A4A;stroke-width:3;stroke-linecap:square;}
+	.st5{fill:none;stroke:#0093C6;stroke-width:3;stroke-linecap:square;}
+	.st6{fill:none;stroke:#FBBA00;stroke-width:3;stroke-linecap:square;}
+	.st7{fill:none;stroke:#F05053;stroke-width:3;stroke-linecap:square;}
+	.st8{fill:#F05053;}
+	.st9{fill:#FBBA00;}
+	.st10{fill:none;}
+	.st11{font-family:'BentonSans-Bold';}
+	.st12{font-size:16px;}
+	.st13{fill:none;stroke:#979797;}
+	.st14{font-family:'FontAwesome';}
+	.st15{font-size:30px;}
+	.st16{font-size:28px;}
+	.st17{font-size:35px;}
+	.st18{font-family:'BentonSans-Medium';}
+	.st19{font-size:18px;}
+</style>
+<title>4F7E4420-817C-47C5-9D22-F17B53B45E80</title>
+<desc>Created with sketchtool.</desc>
+<g id="Page-2">
+	<g id="Desktop-HD-P_x26_I" transform="translate(-178.000000, -1838.000000)">
+		<g id="Group-7" transform="translate(178.000000, 1824.000000)">
+			<text transform="matrix(1 0 0 1 482.7461 498)" class="st0 st1 st2">Tools Team WDF </text>
+			<text transform="matrix(1 0 0 1 471.0566 522)" class="st0 st1 st2">Walldorf, Germany</text>
+			<text transform="matrix(1 0 0 1 633 410)" class="st3 st1 st2">SAP Labs Silicon Valley</text>
+			<text transform="matrix(1 0 0 1 839.4746 410)" class="st3 st1 st2"> </text>
+			<text transform="matrix(1 0 0 1 633 434)" class="st3 st1 st2">Palo Alto, USA</text>
+			<text transform="matrix(1 0 0 1 383.7637 409)" class="st3 st1 st2">SAP Labs </text>
+			<text transform="matrix(1 0 0 1 324.8184 433)" class="st3 st1 st2">Bangalore, India</text>
+			<path id="Line-Copy-4" class="st4" d="M553.5,78.5v157"/>
+			<path id="Line-Copy-11" class="st5" d="M553.5,362v70"/>
+			<path id="Line-Copy-20" class="st6" d="M551.4,362l-70,0.2"/>
+			<path id="Line-Copy-21" class="st7" d="M556,362l70,0.2"/>
+			<circle id="Oval-3-Copy-3" class="st8" cx="634.5" cy="363.5" r="7.5"/>
+			<circle id="Oval-3-Copy-4" class="st9" cx="477.5" cy="363.5" r="7.5"/>
+			<circle id="Oval-3-Copy-5" class="st3" cx="554" cy="237" r="6"/>
+			<circle id="Oval-3-Copy-7" class="st3" cx="554" cy="74" r="6"/>
+			<circle id="Oval-3-Copy-6" class="st0" cx="553.5" cy="439.5" r="7.5"/>
+			<g id="aa148240aa860b035061922161e9ebaa-copy-2" transform="translate(525.000000, 275.000000)">
+				<g id="_x38_F88DBBF-E723-4BAE-910E-41F7F41145B2">
+					<g id="Final">
+						<g id="Landing-Page">
+							<g id="Group-24-Copy">
+								<g id="Group-29">
+									<g id="Group-21">
+										<g id="About-us">
+											<g id="Tools-logo">
+												<g id="Group-4-Copy-4">
+													<g id="Group-2" transform="translate(0.643825, 0.000000)">
+														<rect id="Rectangle" x="0" y="0" class="st10" width="60.1" height="59.2"/>
+														<g id="Group" transform="translate(2.941361, 1.076418)">
+															<g id="Group-3">
+																<path id="Line" class="st3" d="M24.1,44.2c0,5.3,4.3,8.6,9.5,7.3l9.9-2.4L43,47l-9.9,2.4c-3.8,0.9-6.8-1.4-6.8-5.2
+																	l0.1-38.8l-2.2,0L24.1,44.2z"/>
+																<path id="Shape" class="st9" d="M36.1,48c0-3.9,3.2-7,7.1-7s7.1,3.1,7.1,7s-3.2,7-7.1,7S36.1,51.9,36.1,48z"/>
+																<path id="Shape_1_" class="st0" d="M25.2,14.3c-3.9,0-7-3.2-7-7.1s3.1-7.1,7-7.1s7,3.2,7,7.1S29.1,14.3,25.2,14.3z"
+																	/>
+																<path id="Shape_2_" class="st3" d="M43.3,28.4L43.3,28.4c-3.9,0-7.1-3.1-7.1-7l0,0c0-3.9,3.2-7,7.1-7l0,0
+																	c3.9,0,7.1,3.1,7.1,7l0,0C50.4,25.2,47.2,28.4,43.3,28.4L43.3,28.4z"/>
+																<polygon id="Line_1_" class="st3" points="42.4,22.7 41.9,20.6 8.1,28.9 8.6,31 																"/>
+																<path id="Shape_3_" class="st8" d="M7.2,37.3L7.2,37.3c-3.9,0-7.1-3.1-7.1-7l0,0c0-3.9,3.2-7,7.1-7l0,0
+																	c3.9,0,7.1,3.1,7.1,7l0,0C14.3,34.1,11.1,37.3,7.2,37.3L7.2,37.3z"/>
+															</g>
+														</g>
+													</g>
+												</g>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 340 684)" class="st0 st11 st12">THIS IS US</text>
+			<text transform="matrix(1 0 0 1 0 386)" class="st3 st11 st12">AROUND THE WORLD</text>
+			<text transform="matrix(1 0 0 1 5 88)" class="st3 st11 st12">THE TOOLS TEAM</text>
+			
+				<g id="Group-15" transform="translate(407.269377, 547.700390) rotate(15.000000) translate(-407.269377, -547.700390) translate(376.769377, 489.700390)">
+				<path id="Path-3" class="st13" d="M58.6,4.4c-14.9,7-67.8,38.7-56.9,111.1"/>
+				<polyline id="Path-5" class="st13" points="50.4,3.5 59,4.2 54.8,11 				"/>
+			</g>
+			
+				<g id="Group-15-Copy" transform="translate(304.729734, 356.615832) rotate(-299.000000) translate(-304.729734, -356.615832) translate(253.729734, 261.115832)">
+				<path id="Path-3_1_" class="st13" d="M99.6,4.4c-14.9,7-118.4,79.7-95.5,185.9"/>
+				<polyline id="Path-5_1_" class="st13" points="91.4,3.5 100,4.2 95.8,11 				"/>
+			</g>
+			<g id="Group-19" transform="translate(342.000000, 173.000000)">
+				<path id="Path-3_2_" class="st13" d="M31.7,0.8c-1.4,16.4,15.9,117.1,119.3,126"/>
+				<polyline id="Path-5_2_" class="st13" points="144.7,131.2 152,126.6 145.1,122.6 				"/>
+			</g>
+			<text transform="matrix(1 0 0 1 5 125)" class="st3 st1 st2">A healthy mix of designers, engineers, data </text>
+			<text transform="matrix(1 0 0 1 5 149)" class="st3 st1 st2">scientists, writers &amp; product managers.</text>
+			<text transform="matrix(1 0 0 1 0 423)" class="st3 st1 st2">We work as discrete teams </text>
+			<text transform="matrix(1 0 0 1 0 447)" class="st3 st1 st2">around the world, but </text>
+			<text transform="matrix(1 0 0 1 0 471)" class="st3 st1 st2">we share a common goal </text>
+			<text transform="matrix(1 0 0 1 0 495)" class="st3 st1 st2">of creating top-notch </text>
+			<text transform="matrix(1 0 0 1 0 519)" class="st3 st1 st2">experiences for our </text>
+			<text transform="matrix(1 0 0 1 0 543)" class="st3 st1 st2">internal customers and </text>
+			<text transform="matrix(1 0 0 1 0 567)" class="st3 st1 st2">users.</text>
+			<text transform="matrix(1 0 0 1 340 721)" class="st0 st1 st2">We in Walldorf operate as a fairly autonomous </text>
+			<text transform="matrix(1 0 0 1 340 745)" class="st0 st1 st2">team within SAP, designing and building a </text>
+			<text transform="matrix(1 0 0 1 340 769)" class="st0 st1 st2">variety of products and services mostly for </text>
+			<text transform="matrix(1 0 0 1 340 793)" class="st0 st1 st2">internal usage.</text>
+			<text transform="matrix(1 0 0 1 5 349)" class="st3 st14 st15"></text>
+			<text transform="matrix(1 0 0 1 346 647)" class="st0 st14 st16"></text>
+			<text transform="matrix(1 0 0 1 517.0771 41)" class="st3 st11 st17">SAP</text>
+			<text transform="matrix(1 0 0 1 615 312)" class="st18 st19">SAP Tools</text>
+			<text transform="matrix(1 0 0 1 7 52)" class="st3 st14 st15"></text>
+		</g>
+	</g>
+</g>
 </svg>
