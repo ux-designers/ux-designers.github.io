@@ -403,6 +403,9 @@ h1{
     background-size: 150%;
     background-position: 0 100%;
 }
+.project_header.solaris{
+    background-color:#5868F0;
+}
 .project_header.tobi{
     background-color:#4a4a4a;
 }
