@@ -309,6 +309,11 @@ h1{
 .item.sirius img{
     margin-bottom: 20px;
 }
+
+.item.solaris{
+    background-color:#5968F1;
+}
+
 .item .name img{
     width: 120px;
     position: relative;
