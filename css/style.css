@@ -309,6 +309,11 @@ h1{
 .item.sirius img{
     margin-bottom: 20px;
 }
+
+.item.solaris{
+    background-color:#5968F1;
+}
+
 .item .name img{
     width: 120px;
     position: relative;
@@ -402,6 +407,9 @@ h1{
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: 0 100%;
+}
+.project_header.solaris{
+    background-color:#5868F0;
 }
 .project_header.tobi{
     background-color:#4a4a4a;
