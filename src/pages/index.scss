@@ -1,0 +1,675 @@
+@import "design-system";
+
+// START CSS
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  font-family: $displaytext;
+  border: none;
+  margin: 0;
+  overflow-x: hidden;
+  p {
+    font-family: $bodytext;
+  }
+}
+
+.StartHero {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: url(../images/bg2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.StartHeroGroup {
+  @extend %page-template;
+  padding: 150px 20px;
+  @include phone {
+    padding: 80px 20px 50px 20px;
+  }
+}
+
+.StartHero {
+  h1 {
+    @extend %h1;
+    color: white;
+  }
+  h4 {
+    color: white;
+    @extend %h4;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+}
+
+.Intro {
+  @extend %bgwhite;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @include phone {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+.IntroGroup {
+  @extend %page-template;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  padding: 0 20px;
+  @include phone {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 60px;
+    line-height: 1;
+  }
+  p {
+    @extend %p14;
+  }
+  h6 {
+    @extend %h6;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  ul {
+    @extend %p14;
+    padding-left: 30px;
+  }
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.OurMindset {
+  @extend %bgwhite;
+  margin: 0;
+}
+
+.WhiteBG {
+  @extend %bgwhite;
+}
+
+.MindsetTitle {
+  @extend %bgwhite;
+  @extend %page-template;
+  padding: 0 20px;
+  h2 {
+    @extend %h2;
+  }
+}
+
+.MindsetGroup {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.Mindset {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  padding-left: 200px;
+  padding-top: 17px;
+  @include phone {
+    padding-left: 0px;
+  }
+  div:nth-last-child(1) {
+    @include phone {
+      display: none;
+    }
+  }
+}
+
+.Card {
+  flex: 0 0 auto;
+  margin-right: 3px;
+  width: 300px;
+  height: 400px;
+  padding-left: 60px;
+  padding-top: 30px;
+  @include phone {
+    padding-left: 20px;
+  }
+  img {
+    object-fit: cover;
+    width: 250px;
+  }
+  p {
+    @extend %p14;
+  }
+  h6 {
+    @extend %h6;
+    margin: 30px auto;
+  }
+}
+
+.HowWeWork {
+  @extend %bgblack;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  @include phone {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+}
+
+.HowWeWorkGroup {
+  @extend %page-template;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0 20px;
+  @include phone {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.HowsTitle {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 400px auto;
+  @include phone {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  h2 {
+    @extend %h2;
+  }
+  p {
+    @extend %p14;
+  }
+}
+
+.Divisions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  padding-top: 50px;
+  @include phone {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+}
+
+.Division {
+  @include phone {
+    padding-bottom: 10px;
+    display: flex;
+  }
+  h5 {
+    @extend %h5;
+  }
+  p {
+    @extend %p12;
+  }
+  img {
+    width: 50px;
+  }
+  div {
+    @include phone {
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+  }
+}
+
+hr {
+  max-width: 900px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width: 1px;
+  border-color: white;
+  @include phone {
+    display: none;
+  }
+}
+
+.OurTools {
+  @extend %bgblack;
+  padding-top: 30px;
+}
+
+.OurToolsContainer {
+  @extend %page-template;
+  display: grid;
+  grid-template-rows: 100px auto;
+  padding: 0 20px;
+}
+
+.ToolsTitle {
+  h2 {
+    @extend %h2;
+  }
+  p {
+    @extend %p16;
+  }
+}
+
+.ToolsGroup {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  padding-top: 30px;
+  @include phone {
+    height: 500px;
+  }
+}
+
+.Tools {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  padding-top: 17px;
+  @include phone {
+    height: 100%;
+  }
+}
+
+.Links {
+  text-decoration: none !important;
+  color: white;
+}
+
+.Tool {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 600px;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-color: yellow;
+  position: relative;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  overflow: hidden;
+  h6 {
+    max-width: 390px;
+    @extend %h6;
+    font-size: 43px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 2;
+    &:hover {
+      text-decoration: underline;
+    }
+    p {
+      max-width: 390px;
+      @extend %p14;
+      opacity: 0;
+    }
+  }
+
+  img {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    width: 200px;
+  }
+
+  .ToolsBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    opacity: 0;
+    width: 200%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  @include phone {
+    height: 500px;
+  }
+  &:hover {
+    .ToolsBackground {
+      opacity: 1;
+      width: 220%;
+      filter: brightness(65%);
+    }
+    img {
+      opacity: 0;
+    }
+  }
+}
+
+.STN {
+  background-color: #faba00;
+}
+
+.IFR {
+  background-color: #18a79b;
+}
+
+.PPMS {
+  background-color: #303d4e;
+}
+
+.Mailwave {
+  background-color: #00bcd4;
+}
+
+.Sirius {
+  background-color: #43a0d6;
+}
+.Lucid {
+  background-color: #6cc6b3;
+}
+
+.Bridge {
+  background-color: #6bc5d6;
+}
+
+.Polaris {
+  background-color: #8283ce;
+}
+
+.Solaris {
+  background-color: #5867f1;
+}
+
+.Toby {
+  background-color: #c14040;
+}
+
+.Blog {
+  @extend %bgwhite;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @include phone {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.BlogContainer {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  @extend %page-template;
+  padding: 0 20px;
+  @include phone {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.BlogTitle {
+  h2 {
+    @extend %h2;
+  }
+  p {
+    margin: 20px auto;
+  }
+}
+
+.Blogs {
+  display: grid;
+  max-width: 900px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  @include phone {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.BlogTiles {
+  b {
+    @include phone {
+      font-size: 20px;
+      line-height: 1;
+    }
+  }
+  @include phone {
+    padding-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  p {
+    @extend %p12;
+  }
+  &:hover {
+    img {
+      -webkit-filter: brightness(80%); /* Safari */
+      filter: brightness(80%);
+    }
+  }
+}
+
+// .ImageDivider {
+//   @extend %bgwhite;
+//   img {
+//     object-fit: cover;
+//     width: 100%;
+//   }
+//   .PhoneDivider {
+//     display: none;
+//   }
+//   @include phone {
+//     .PhoneDivider {
+//       display: block;
+//     }
+//     .DesktopDivider {
+//       display: none;
+//     }
+//   }
+// }
+
+.DividerGroup {
+  @extend %bgwhite;
+  overflow: hidden;
+  div {
+    height: 300px;
+    width: 5883px;
+    background: url(../images/divider.jpg) repeat-x;
+    background-size: contain;
+    transform: translate3d(0, 0, 0);
+    animation: moveSlideshow 30s linear infinite;
+  }
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-1961px);
+  }
+}
+
+.Careers {
+  @extend %bgwhite;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  @include phone {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.CareersSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  @extend %page-template;
+  margin: 0px auto;
+  padding: 0 20px;
+
+  @include phone {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.Details {
+  h2 {
+    @extend %h2;
+  }
+  h5 {
+    @extend %h5;
+    margin: 30px auto;
+  }
+  p {
+    font-size: 12px;
+    line-height: 1.5;
+    width: 90%;
+    a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.Jobs {
+  display: grid;
+  grid-template-rows: repeat;
+  p {
+    font-size: 14px;
+  }
+}
+
+.JobSection h6 {
+  @extend %h6;
+  margin: 20px 0;
+}
+
+.JobLinks {
+  width: 100%;
+  text-decoration: none;
+}
+
+.Button {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  p {
+    padding-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+  }
+  img {
+    padding-right: 20px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  &:hover {
+    background-color: #eeeeee;
+    img {
+      padding-right: 15px;
+    }
+  }
+}
+
+.Footer {
+  background-color: black;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+}
+
+.FooterContainer {
+  @extend %page-template;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  .FooterLeft {
+    display: flex;
+    align-items: center;
+    img {
+      height: 1.5rem;
+    }
+    a {
+      padding: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+      font-family: $bodytext;
+
+      &:hover {
+        color: #cccccc;
+      }
+    }
+  }
+  .FooterRight {
+    display: flex;
+    align-items: flex-end;
+    img {
+      height: 1.2rem;
+      padding-left: 10px;
+
+      transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+  }
+  .hide {
+    @include phone {
+      display: none;
+    }
+  }
+}
+
+.Typist .Cursor {
+  display: inline-block;
+}
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Typist {
+  @include phone {
+    max-width: 90%;
+  }
+}

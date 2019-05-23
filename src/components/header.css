@@ -1,0 +1,60 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  padding: 50px 0;
+  z-index: 100;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderScrolled {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+  backdrop-filter: blur(20px);
+}
+
+.HeaderGroup {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+}
+
+.HeaderGroup img {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.Header a {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .Header {
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+
+  .HeaderScrolled {
+    padding-top: 10px;
+  }
+
+  .HeaderGroup {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .Header a:nth-child(n + 2) {
+    display: none;
+  }
+}

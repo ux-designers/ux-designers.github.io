@@ -1,0 +1,868 @@
+.StartHero h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+
+@media (max-width: 640px) {
+  .StartHero h1 {
+    font-size: 60px;
+  }
+}
+
+.MindsetTitle h2, .HowsTitle h2, .ToolsTitle h2, .BlogTitle h2, .Details h2 {
+  font-size: 60px;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+@media (max-width: 640px) {
+  .MindsetTitle h2, .HowsTitle h2, .ToolsTitle h2, .BlogTitle h2, .Details h2 {
+    font-size: 50px;
+  }
+}
+
+.StartHero h4 {
+  font-size: 25px;
+  line-height: 1;
+}
+
+@media (max-width: 640px) {
+  .StartHero h4 {
+    font-size: 16px;
+  }
+}
+
+.Division h5, .Details h5 {
+  font-size: 20px;
+  margin: 10px auto;
+  line-height: 1;
+}
+
+.IntroGroup h6, .Card h6, .Tool h6, .JobSection h6 {
+  margin: 0px auto;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.IntroGroup p, .IntroGroup ul, .Card p, .HowsTitle p, .Tool h6 p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px auto;
+}
+
+.ToolsTitle p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 10px auto;
+}
+
+.Division p, .BlogTiles p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 10px auto;
+}
+
+.StartHeroGroup, .IntroGroup, .MindsetTitle, .HowWeWorkGroup, .OurToolsContainer, .BlogContainer, .CareersSection, .FooterContainer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.Intro, .OurMindset, .WhiteBG, .MindsetTitle, .Blog, .DividerGroup, .Careers {
+  background-color: white;
+  color: black;
+}
+
+.HowWeWork, .OurTools {
+  background-color: black;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  font-family: "Source Code Pro", monospace;
+  border: none;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.StartHero {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: url(../images/bg2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.StartHeroGroup {
+  padding: 150px 20px;
+}
+
+@media (max-width: 640px) {
+  .StartHeroGroup {
+    padding: 80px 20px 50px 20px;
+  }
+}
+
+.StartHero h1 {
+  color: white;
+}
+
+.StartHero h4 {
+  color: white;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.Intro {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 640px) {
+  .Intro {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+.IntroGroup {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 0 20px;
+}
+
+@media (max-width: 640px) {
+  .IntroGroup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+.IntroGroup h2 {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.IntroGroup h6 {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.IntroGroup ul {
+  padding-left: 30px;
+}
+
+.IntroGroup img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.OurMindset {
+  margin: 0;
+}
+
+.MindsetTitle {
+  padding: 0 20px;
+}
+
+.MindsetGroup {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.Mindset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  padding-left: 200px;
+  padding-top: 17px;
+}
+
+@media (max-width: 640px) {
+  .Mindset {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  .Mindset div:nth-last-child(1) {
+    display: none;
+  }
+}
+
+.Card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-right: 3px;
+  width: 300px;
+  height: 400px;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+@media (max-width: 640px) {
+  .Card {
+    padding-left: 20px;
+  }
+}
+
+.Card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+
+.Card h6 {
+  margin: 30px auto;
+}
+
+.HowWeWork {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 640px) {
+  .HowWeWork {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+}
+
+.HowWeWorkGroup {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  padding: 0 20px;
+}
+
+@media (max-width: 640px) {
+  .HowWeWorkGroup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+}
+
+.HowsTitle {
+  max-width: 900px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 400px auto;
+      grid-template-columns: 400px auto;
+}
+
+@media (max-width: 640px) {
+  .HowsTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+.Divisions {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  padding-top: 50px;
+}
+
+@media (max-width: 640px) {
+  .Divisions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .Division {
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.Division img {
+  width: 50px;
+}
+
+@media (max-width: 640px) {
+  .Division div {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+}
+
+hr {
+  max-width: 900px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width: 1px;
+  border-color: white;
+}
+
+@media (max-width: 640px) {
+  hr {
+    display: none;
+  }
+}
+
+.OurTools {
+  padding-top: 30px;
+}
+
+.OurToolsContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px auto;
+      grid-template-rows: 100px auto;
+  padding: 0 20px;
+}
+
+.ToolsGroup {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+@media (max-width: 640px) {
+  .ToolsGroup {
+    height: 500px;
+  }
+}
+
+.Tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  padding-top: 17px;
+}
+
+@media (max-width: 640px) {
+  .Tools {
+    height: 100%;
+  }
+}
+
+.Links {
+  text-decoration: none !important;
+  color: white;
+}
+
+.Tool {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 400px;
+  height: 600px;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-color: yellow;
+  position: relative;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  overflow: hidden;
+}
+
+.Tool h6 {
+  max-width: 390px;
+  font-size: 43px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+}
+
+.Tool h6:hover {
+  text-decoration: underline;
+}
+
+.Tool h6 p {
+  max-width: 390px;
+  opacity: 0;
+}
+
+.Tool img {
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+  width: 200px;
+}
+
+.Tool .ToolsBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 0;
+  width: 200%;
+  -webkit-transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (max-width: 640px) {
+  .Tool {
+    height: 500px;
+  }
+}
+
+.Tool:hover .ToolsBackground {
+  opacity: 1;
+  width: 220%;
+  -webkit-filter: brightness(65%);
+          filter: brightness(65%);
+}
+
+.Tool:hover img {
+  opacity: 0;
+}
+
+.STN {
+  background-color: #faba00;
+}
+
+.IFR {
+  background-color: #18a79b;
+}
+
+.PPMS {
+  background-color: #303d4e;
+}
+
+.Mailwave {
+  background-color: #00bcd4;
+}
+
+.Sirius {
+  background-color: #43a0d6;
+}
+
+.Lucid {
+  background-color: #6cc6b3;
+}
+
+.Bridge {
+  background-color: #6bc5d6;
+}
+
+.Polaris {
+  background-color: #8283ce;
+}
+
+.Solaris {
+  background-color: #5867f1;
+}
+
+.Toby {
+  background-color: #c14040;
+}
+
+.Blog {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 640px) {
+  .Blog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.BlogContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  padding: 0 20px;
+}
+
+@media (max-width: 640px) {
+  .BlogContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.BlogTitle p {
+  margin: 20px auto;
+}
+
+.Blogs {
+  display: -ms-grid;
+  display: grid;
+  max-width: 900px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+
+.Blogs a {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .Blogs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .BlogTiles b {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .BlogTiles {
+    padding-bottom: 20px;
+  }
+}
+
+.BlogTiles img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.BlogTiles:hover img {
+  -webkit-filter: brightness(80%);
+  /* Safari */
+  filter: brightness(80%);
+}
+
+.DividerGroup {
+  overflow: hidden;
+}
+
+.DividerGroup div {
+  height: 300px;
+  width: 5883px;
+  background: url(../images/divider.jpg) repeat-x;
+  background-size: contain;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-animation: moveSlideshow 30s linear infinite;
+          animation: moveSlideshow 30s linear infinite;
+}
+
+@-webkit-keyframes moveSlideshow {
+  100% {
+    -webkit-transform: translateX(-1961px);
+            transform: translateX(-1961px);
+  }
+}
+
+@keyframes moveSlideshow {
+  100% {
+    -webkit-transform: translateX(-1961px);
+            transform: translateX(-1961px);
+  }
+}
+
+.Careers {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 640px) {
+  .Careers {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.CareersSection {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 640px) {
+  .CareersSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.Details h5 {
+  margin: 30px auto;
+}
+
+.Details p {
+  font-size: 12px;
+  line-height: 1.5;
+  width: 90%;
+}
+
+.Details p a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Details p a:hover {
+  text-decoration: underline;
+}
+
+.Jobs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: repeat;
+      grid-template-rows: repeat;
+}
+
+.Jobs p {
+  font-size: 14px;
+}
+
+.JobSection h6 {
+  margin: 20px 0;
+}
+
+.JobLinks {
+  width: 100%;
+  text-decoration: none;
+}
+
+.Button {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Button p {
+  padding-left: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.Button img {
+  padding-right: 20px;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Button:hover {
+  background-color: #eeeeee;
+}
+
+.Button:hover img {
+  padding-right: 15px;
+}
+
+.Footer {
+  background-color: black;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+}
+
+.FooterContainer {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+}
+
+.FooterContainer .FooterLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.FooterContainer .FooterLeft img {
+  height: 1.5rem;
+}
+
+.FooterContainer .FooterLeft a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.FooterContainer .FooterLeft a:hover {
+  color: #cccccc;
+}
+
+.FooterContainer .FooterRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.FooterContainer .FooterRight img {
+  height: 1.2rem;
+  padding-left: 10px;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (max-width: 640px) {
+  .FooterContainer .hide {
+    display: none;
+  }
+}
+
+.Typist .Cursor {
+  display: inline-block;
+}
+
+.Typist .Cursor--blinking {
+  opacity: 1;
+  -webkit-animation: blink 1s linear infinite;
+          animation: blink 1s linear infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .Typist {
+    max-width: 90%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

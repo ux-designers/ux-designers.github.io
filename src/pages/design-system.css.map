@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "design-system.scss"
+    ],
+    "names": [],
+    "file": "design-system.css"
+}

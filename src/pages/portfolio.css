@@ -1,0 +1,354 @@
+.HeroGroup h1, .IntroPortoGroup h2, .Portfolio h2 {
+  font-size: 60px;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup h1, .IntroPortoGroup h2, .Portfolio h2 {
+    font-size: 50px;
+  }
+}
+
+.IntroPortoGroup h5 {
+  font-size: 25px;
+  line-height: 1;
+}
+
+@media (max-width: 640px) {
+  .IntroPortoGroup h5 {
+    font-size: 16px;
+  }
+}
+
+.Portfolio h5 {
+  font-size: 20px;
+  margin: 10px auto;
+  line-height: 1;
+}
+
+.IntroPortoDetail h6 {
+  margin: 0px auto;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.IntroPortoDetail p, .Portfolio p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px auto;
+}
+
+.HeroGroup, .IntroPortoGroup, .IntroPortoDetail, .Portfolio {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.IntroPorto, .PortfolioGroup, .WhiteBG {
+  background-color: white;
+  color: black;
+}
+
+.HeroPortfolio {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.STNP {
+  background: url("../images/stnbg.jpg");
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.SOLP {
+  background-color: #5867f1;
+}
+
+.TOBP {
+  background-color: #d46056;
+}
+
+.POLP {
+  background: url("../images/polarisbg.jpg");
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.IFRP {
+  background: url("../images/ifrbg.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.PPMSP {
+  background: url("../images/ppmsbg.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.SIRP {
+  background: url("../images/siriusbg.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.LUCP {
+  background: url("../images/lucidbg.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.HeroGroup {
+  padding: 150px 20px;
+  position: relative;
+}
+
+.HeroGroup h1 {
+  padding-top: 20px;
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup h1 {
+    font-size: 40px;
+  }
+}
+
+.IntroPorto {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.IntroPortoGroup {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  justify-items: start;
+}
+
+@media (max-width: 640px) {
+  .IntroPortoGroup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+.IntroPortoGroup img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 250px;
+  height: 300px;
+}
+
+@media (max-width: 640px) {
+  .IntroPortoGroup img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+.IntroPortoGroup h2 {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+@media (max-width: 640px) {
+  .IntroPortoGroup h2 {
+    padding-top: 0;
+    font-size: 35px;
+    padding-bottom: 0;
+  }
+}
+
+.IntroPortoGroup h5 {
+  padding-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+@media (max-width: 640px) {
+  .IntroPortoGroup h5 {
+    padding-top: 0;
+    font-size: 25px;
+    margin: 20px auto;
+  }
+}
+
+.IntroPortoDetail {
+  padding-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 640px) {
+  .IntroPortoDetail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .IntroPortoDetail h6 {
+    font-weight: 600;
+    font-size: 15px;
+  }
+}
+
+.IntroPortoDetail p {
+  line-height: 2;
+}
+
+@media (max-width: 640px) {
+  .IntroPortoDetail p {
+    font-size: 13px;
+    padding-bottom: 20px;
+  }
+}
+
+.PortfolioGroup {
+  padding-bottom: 50px;
+}
+
+.Portfolio img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding: 30px 0;
+}
+
+@media (max-width: 640px) {
+  .Portfolio img {
+    padding: 10px 0;
+  }
+}
+
+.Portfolio h5 {
+  width: 80%;
+}
+
+@media (max-width: 640px) {
+  .Portfolio h5 {
+    width: 90%;
+  }
+}
+
+.Portfolio p {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+@media (max-width: 640px) {
+  .Portfolio p {
+    width: 90%;
+  }
+}
+
+.Portfolio h2 {
+  font-weight: 400;
+  text-align: center;
+  padding: 30px 0;
+}
+
+@media (max-width: 640px) {
+  .Portfolio h2 {
+    font-size: 30px;
+    text-align: left;
+    width: 90%;
+    padding-bottom: 0px;
+  }
+}
+
+.Portfolio h2 + p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.Portfolio img + p {
+  margin-top: -40px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.BackButton {
+  margin: 10px auto;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 180px;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.BackButton p {
+  padding-right: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.BackButton img {
+  padding-left: 25px;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.BackButton:hover {
+  background-color: #eeeeee;
+}
+
+.BackButton:hover img {
+  padding-left: 20px;
+}
+
+.Links {
+  text-decoration: none !important;
+  color: white;
+}
+/*# sourceMappingURL=portfolio.css.map */

@@ -1,0 +1,262 @@
+@import "design-system";
+
+// START CSS
+.HeroPortfolio {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.STNP {
+  background: url("../images/stnbg.jpg");
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.SOLP {
+  background-color: #5867f1;
+}
+
+.TOBP {
+  background-color: #d46056;
+}
+
+.POLP {
+  background: url("../images/polarisbg.jpg");
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.IFRP {
+  background: url("../images/ifrbg.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.PPMSP {
+  background: url("../images/ppmsbg.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.SIRP {
+  background: url("../images/siriusbg.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.LUCP {
+  background: url("../images/lucidbg.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.HeroGroup {
+  @extend %page-template;
+  padding: 150px 20px;
+  position: relative;
+  h1 {
+    @extend %h2;
+    padding-top: 20px;
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+    @include phone {
+      font-size: 40px;
+    }
+  }
+}
+
+.IntroPorto {
+  @extend %bgwhite;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.IntroPortoGroup {
+  @extend %page-template;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: start;
+  @include phone {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  img {
+    object-fit: contain;
+    width: 250px;
+    height: 300px;
+    @include phone {
+      width: 100px;
+      height: auto;
+    }
+  }
+
+  h2 {
+    @extend %h2;
+    font-weight: 600;
+    font-size: 45px;
+
+    @include phone {
+      padding-top: 0;
+      font-size: 35px;
+      padding-bottom: 0;
+    }
+  }
+  h5 {
+    @extend %h4;
+    padding-top: 20px;
+    font-family: $bodytext;
+    line-height: 1.5;
+    font-weight: 300;
+    @include phone {
+      padding-top: 0;
+      font-size: 25px;
+      margin: 20px auto;
+    }
+  }
+}
+
+.IntroPortoDetail {
+  @extend %page-template;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @include phone {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  h6 {
+    @extend %h6;
+    @include phone {
+      font-weight: 600;
+      font-size: 15px;
+    }
+  }
+  p {
+    @extend %p14;
+    line-height: 2;
+    @include phone {
+      font-size: 13px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.PortfolioGroup {
+  @extend %bgwhite;
+  padding-bottom: 50px;
+}
+
+.Portfolio {
+  @extend %page-template;
+  img {
+    object-fit: cover;
+    width: 100%;
+    padding: 30px 0;
+    @include phone {
+      padding: 10px 0;
+    }
+  }
+  h5 {
+    @extend %h5;
+    width: 80%;
+    @include phone {
+      width: 90%;
+    }
+  }
+
+  p {
+    width: 80%;
+    margin: 0 auto;
+    @extend %p14;
+    line-height: 2;
+
+    @include phone {
+      width: 90%;
+    }
+  }
+  h2 {
+    @extend %h2;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0;
+
+    @include phone {
+      font-size: 30px;
+      text-align: left;
+      width: 90%;
+      padding-bottom: 0px;
+    }
+  }
+  h2 + p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  img + p {
+    margin-top: -40px;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+.WhiteBG {
+  @extend %bgwhite;
+}
+
+.BackButton {
+  margin: 10px auto;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  p {
+    padding-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+  }
+  img {
+    padding-left: 25px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  &:hover {
+    background-color: #eeeeee;
+    img {
+      padding-left: 20px;
+    }
+  }
+}
+
+.Links {
+  text-decoration: none !important;
+  color: white;
+}
