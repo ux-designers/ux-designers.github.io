@@ -46,7 +46,7 @@ class Footer extends React.Component {
           </div>
           <div className="FooterRight">
             <a
-              href="https://dribbble.com/SAP_PI_TOOLS"
+              href="https://dribbble.com/SAP_TOOLSTEAM"
               target="_blank"
               rel="noopener noreferrer"
             >
