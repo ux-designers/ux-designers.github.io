@@ -31,7 +31,13 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
-              Sue Schneider – Product Owner <br />
+              Sue Schneider – Product Owner 
+              <br />
+              Polaris Development Team
+              {/*  
+              <br />
+              Timo Bergmann – Architect
+              <br />
               Christian Riedl – Developer
               <br />
               Fabian Hilz – Developer
@@ -44,7 +50,7 @@ const IndexPage = () => (
               <br />
               Simon Nilius – Developer
               <br />
-              Timo Bergmann – Developer
+              */}
               <br />
               Astrid Kadel – UX/UI Designer
             </p>
