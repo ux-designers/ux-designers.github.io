@@ -52,7 +52,7 @@ const IndexPage = () => (
       </div>
       <div className="PortfolioGroup">
         <div className="Portfolio">
-          <img alt="portfolio" src={require("../images/photo1.jpg")} />
+          <img alt="portfolio" src={require("../images/stn1.jpg")} />
           <h5>all in one platform.</h5>
           <p>
             Bridge is a dashboard application that functions as its name says as
@@ -65,7 +65,7 @@ const IndexPage = () => (
             Users can decide on their own which widgets they want to incorporate
             in their personal Bridge dashboard.
           </h2>
-          <img alt="portfolio" src={require("../images/photo2.jpg")} />
+          <img alt="portfolio" src={require("../images/stn2.jpg")} />
         </div>
       </div>
       <HashLink smooth to="/#works" className="Links">

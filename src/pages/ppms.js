@@ -84,7 +84,7 @@ const IndexPage = () => (
             to consume application.
           </p>
           <h2>Designed for occasional users loved by the professionals .</h2>
-          <img alt="portfolio" src={require("../images/ppms2.png")} />
+          <img alt="portfolio" src={require("../images/ppms2.jpg")} />
           <p>
             For all devices: Our users can access with whatever device they want
             and with whatever browser they use

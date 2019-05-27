@@ -53,14 +53,14 @@ const IndexPage = () => (
       </div>
       <div className="PortfolioGroup">
         <div className="Portfolio">
-          <img alt="portfolio" src={require("../images/tobi1.png")} />
+          <img alt="portfolio" src={require("../images/tobi1.jpg")} />
           <h5>Meet Tobi.</h5>
           <p>
             Tobi is an extendable chatbot for Slack that works for you. You can
             configure your own services or use already existing ones to help you
             with daily tasks.
           </p>
-          <img alt="portfolio" src={require("../images/tobi2.png")} />
+          <img alt="portfolio" src={require("../images/tobi2.jpg")} />
         </div>
       </div>
       <HashLink smooth to="/#works" className="Links">

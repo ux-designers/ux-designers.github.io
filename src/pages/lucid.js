@@ -49,10 +49,10 @@ const IndexPage = () => (
       </div>
       <div className="PortfolioGroup">
         <div className="Portfolio">
-          <img alt="portfolio" src={require("../images/lucid1.png")} />
+          <img alt="portfolio" src={require("../images/lucid1.jpg")} />
           <h5>Lucid Capacity is designed for awesomeness.</h5>
           <p>It was never so simple to keep track of capacity management.</p>
-          <img alt="portfolio" src={require("../images/lucid2.png")} />
+          <img alt="portfolio" src={require("../images/lucid2.jpg")} />
         </div>
       </div>
       <HashLink smooth to="/#works" className="Links">

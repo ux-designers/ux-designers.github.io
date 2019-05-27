@@ -34,10 +34,14 @@ const IndexPage = () => (
             <p>
               André Stern – Product Owner <br />
               Birger Lehmann – Architect <br />
-              Smitha C. Patil – Co-Architect<br />
-              Sebastian Protz – Developer<br />
-              Supriya Raj – Developer<br />
-              Venkata Gopi Thokala – Developer<br />
+              Smitha C. Patil – Co-Architect
+              <br />
+              Sebastian Protz – Developer
+              <br />
+              Supriya Raj – Developer
+              <br />
+              Venkata Gopi Thokala – Developer
+              <br />
               Sarina Walter – UX/UI Designer
             </p>
           </div>
@@ -57,7 +61,7 @@ const IndexPage = () => (
       </div>
       <div className="PortfolioGroup">
         <div className="Portfolio">
-          <img alt="portfolio" src={require("../images/solaris1.png")} />
+          <img alt="portfolio" src={require("../images/solaris1.jpg")} />
           <h5>Documentation along Business Capability Models.</h5>
           <p>
             Solaris is a browser-based application used by SAP employees to

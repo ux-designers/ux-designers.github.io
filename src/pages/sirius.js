@@ -49,13 +49,13 @@ const IndexPage = () => (
       </div>
       <div className="PortfolioGroup">
         <div className="Portfolio">
-          <img alt="portfolio" src={require("../images/sirius1.png")} />
+          <img alt="portfolio" src={require("../images/sirius1.jpg")} />
           <h5>all the tasks in one place..</h5>
           <p>
             With Sirius we offer one place where all the magic happens to
             deliver compliant software at SAP.
           </p>
-          <img alt="portfolio" src={require("../images/sirius2.png")} />
+          <img alt="portfolio" src={require("../images/sirius2.jpg")} />
         </div>
       </div>
       <HashLink smooth to="/#works" className="Links">
