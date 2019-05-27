@@ -3,6 +3,8 @@
   width: 100%;
   padding: 50px 0;
   z-index: 100;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  -o-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -10,13 +12,18 @@
   background: rgba(0, 0, 0, 0.8);
   padding: 10px 0;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .HeaderGroup {
   max-width: 900px;
   margin: 0 auto;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  -ms-grid-columns: (auto, auto, auto, auto, auto);
+  grid-template-columns: (auto, auto, auto, auto, auto);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .Logo {
@@ -51,7 +58,8 @@
   }
 
   .HeaderGroup {
-    grid-template-columns: repeat(4, auto);
+    -ms-grid-columns: (auto, auto, auto, auto);
+    grid-template-columns: (auto, auto, auto, auto);
   }
 
   .Header a:nth-child(n + 2) {
