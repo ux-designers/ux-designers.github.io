@@ -29,11 +29,14 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
+              Tobi Development Team
+              {/* 
               John Doe - Product Manager <br />
               Andre Schneider - Developer
               <br />
               Janis Müller - UX Designer
               <br />
+               */}
             </p>
           </div>
           <div className="Brief">
