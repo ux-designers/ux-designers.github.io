@@ -32,7 +32,7 @@ const IndexPage = () => (
             <h6>teams info.</h6>
             <p>
               Frank Imhof - Product Manager <br />
-              Matthias Kammerer - Info Developer
+              Matthias Kammerer - Support
               <br />
               Bernd Falkenberg - Architect
               <br />
@@ -40,12 +40,13 @@ const IndexPage = () => (
               <br />
               Jin Chen - Developer
               <br />
-              Gunnar Kiesewetter - Developer
+              Gunnar Kiesewalter - Developer
               <br />
               Pavel Komardin - Developer
               <br />
               Nelly Pouomeugne Feutse - Developer
               <br />
+              Christian Riedl - Developer <br />
               Matthias Scudlik - Developer
               <br />
               Gerhard Weigelt - Developer
