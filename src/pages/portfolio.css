@@ -144,8 +144,8 @@
 .IntroPortoGroup {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr, 1fr;
-  -ms-grid-columns: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
   justify-items: start;
 }
 
@@ -208,8 +208,8 @@
   padding-top: 30px;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr, 1fr;
-  -ms-grid-columns: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
 }
 
 @media (max-width: 640px) {

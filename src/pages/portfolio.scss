@@ -94,8 +94,8 @@
   @extend %page-template;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: (1fr, 1fr);
-  -ms-grid-columns: (1fr, 1fr);
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
   justify-items: start;
   @include phone {
     display: -webkit-box;
@@ -147,8 +147,8 @@
   @extend %page-template;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: (1fr, 1fr);
-  -ms-grid-columns: (1fr, 1fr);
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
 
   @include phone {
     display: -webkit-box;

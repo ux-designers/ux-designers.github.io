@@ -20,8 +20,8 @@
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto, auto, auto, auto, auto);
-  grid-template-columns: (auto, auto, auto, auto, auto);
+  -ms-grid-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -58,8 +58,8 @@
   }
 
   .HeaderGroup {
-    -ms-grid-columns: (auto, auto, auto, auto);
-    grid-template-columns: (auto, auto, auto, auto);
+    -ms-grid-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
   }
 
   .Header a:nth-child(n + 2) {
