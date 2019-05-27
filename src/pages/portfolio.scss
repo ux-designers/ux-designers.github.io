@@ -92,12 +92,18 @@
 }
 .IntroPortoGroup {
   @extend %page-template;
-
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: (1fr, 1fr);
+  -ms-grid-columns: (1fr, 1fr);
   justify-items: start;
   @include phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding: 0 20px;
   }
@@ -141,10 +147,16 @@
   @extend %page-template;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: (1fr, 1fr);
+  -ms-grid-columns: (1fr, 1fr);
 
   @include phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding: 0 20px;
   }
@@ -232,10 +244,18 @@
   border: 1px solid black;
   height: 50px;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 180px;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  -o-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   p {
     padding-right: 20px;
@@ -245,6 +265,8 @@
   }
   img {
     padding-left: 25px;
+    -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    -o-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
