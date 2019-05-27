@@ -38,6 +38,8 @@ const IndexPage = () => (
               <br />
               Veronika Wehrle - Architect
               <br />
+              Christian Schneider - Architect
+              <br />
               Jin Chen - Developer
               <br />
               Gunnar Kiesewalter - Developer
