@@ -46,9 +46,8 @@ const IndexPage = () => (
               <br />
               Pavel Komardin - Developer
               <br />
-              Nelly Pouomeugne Feutse - Developer
+              Christian Riedl - Developer
               <br />
-              Christian Riedl - Developer <br />
               Matthias Scudlik - Developer
               <br />
               Gerhard Weigelt - Developer
