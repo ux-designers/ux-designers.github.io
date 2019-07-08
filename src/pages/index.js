@@ -94,7 +94,7 @@ const IndexPage = () => (
           <div className="Division">
             <img alt="pm" src={require("../images/product.svg")} />
             <div>
-              <h5>project managers.</h5>
+              <h5>product owners.</h5>
               <p>
                 Our collaboration and stakeholder heroes. With their 360°
                 vision, they connect the team and hold all the bits & pieces

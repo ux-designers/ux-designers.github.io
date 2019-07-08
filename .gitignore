@@ -68,3 +68,4 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 .DS_Store
+.DS_Store
