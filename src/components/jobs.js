@@ -18,14 +18,15 @@ class Jobs extends React.Component {
         </div>
         <div className="JobSection">
           <h6>code.</h6>
-          <Job
+          {/* <Job
             joblink="https://jobs.sap.com/job/WalldorfSt_-Leon-Rot-%28Associate%29-Full-Stack-Developer-%28mf%29-%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B-BW/522852101/?locale=de_DE"
             jobtitle="Associate Full-Stack Developer (m/f)​​​​​"
           />
           <Job
             joblink="https://performancemanager5.successfactors.eu/sf/jobreq?jobId=214176&company=SAP&username&_s.crb=cTSjSf2eRwLPIV1nEqRaOS7P9NE%253d"
             jobtitle="Associate Architect (m/f)"
-          />
+          /> */}
+          <p>- Currently no vacancy available. -</p>
         </div>
       </div>
     )
