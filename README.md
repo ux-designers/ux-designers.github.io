@@ -51,3 +51,17 @@ Welcome to the new built Tools Team Website. Here are some documentations to hel
             jobtitle="Associate Architect (m/f)"
           />
     ```
+
+## 🚀 How to Publish
+
+1.  **Push the updates at the dev repository**
+
+    Push your updates to github, on the dev branch.
+
+1.  **Deploy the update to the master branch.**
+
+    Launch the terminal and use this code below.
+
+    ```
+    npm run deploy
+    ```
