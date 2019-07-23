@@ -132,7 +132,7 @@ const IndexPage = () => (
       <div className="OurToolsContainer">
         <div className="ToolsTitle">
           <h2>our tools.</h2>
-          <p>A sneak-peek to our awesome tools.</p>
+          <p>Drag to the left see all our awesome tools ⟶</p>
         </div>
       </div>
       <div className="ToolsGroup">
