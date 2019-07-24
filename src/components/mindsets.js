@@ -2,16 +2,17 @@ import React from "react"
 import range from "lodash/range"
 import styled from "styled-components"
 import ItemsCarousel from "react-items-carousel"
+import Mindset from "../components/mindset"
 
-const noOfItems = 12
-const noOfCards = 3
-const autoPlayDelay = 2000
-const chevronWidth = 40
+const noOfItems = 8
+const noOfCards = 4
+const autoPlayDelay = 3000
+const chevronWidth = 60
 
 const Wrapper = styled.div`
-  padding: 0 ${chevronWidth}px;
-  max-width: 1000px;
-  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  margin: 0;
 `
 
 const SlideItem = styled.div`
@@ -55,14 +56,63 @@ export default class AutoPlayCarousel extends React.Component {
         <ItemsCarousel
           gutter={12}
           numberOfCards={noOfCards}
+          activePosition={"center"}
           activeItemIndex={this.state.activeItemIndex}
           requestToChangeActive={this.onChange}
-          rightChevron={<button>{">"}</button>}
-          leftChevron={<button>{"<"}</button>}
+          rightChevron={">"}
+          leftChevron={"<"}
           chevronWidth={chevronWidth}
-          outsideChevron
-          children={carouselItems}
-        />
+          outsideChevron={false}
+          showSlither={false}
+          firstAndLastGutter={false}
+        >
+          <Mindset
+            title="Continous Delivery"
+            image={require("../images/a.gif")}
+            text="100% of our teams have a CI/CD pipeline. Frequent deployment
+(between daily and 6-weekly)"
+          />
+          <Mindset
+            title="Product"
+            image={require("../images/b.gif")}
+            text="Stable teams working on a product permanently"
+          />
+          <Mindset
+            title="Agile"
+            image={require("../images/c.gif")}
+            text="100% of our teams are doing Scrum. Teams empowered to build and
+extend the product. Flat hierarchies - fast decision making."
+          />
+          <Mindset
+            title="Service"
+            image={require("../images/d.gif")}
+            text="Delivering end-to-end service, not only tools. Knowing our user
+personally."
+          />
+          <Mindset
+            title="DevOps"
+            image={require("../images/e.gif")}
+            text="Development teams are in-charge of maintenance and operations."
+          />
+          <Mindset
+            title="Innovation"
+            image={require("../images/f.gif")}
+            text="Welcoming new and crazy ideas (Crowdfunding). Exploring new ways of
+working (Hackatons). TGIF (10% Innovation)"
+          />
+          <Mindset
+            title="User Experience"
+            image={require("../images/g.gif")}
+            text="User Satisfaction measured regularly (SUS). UX Designers in all
+teams. Direct end user interaction."
+          />
+          <Mindset
+            title="Data-driven"
+            image={require("../images/h.gif")}
+            text="Usage tracking across all tools. KPIs to measure
+return-on-investment."
+          />
+        </ItemsCarousel>
       </Wrapper>
     )
   }
