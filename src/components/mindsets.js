@@ -6,7 +6,7 @@ import Mindset from "../components/mindset"
 
 const noOfItems = 9
 const noOfCards = 3
-const autoPlayDelay = 2000
+const autoPlayDelay = 2800
 const chevronWidth = 80
 
 const Wrapper = styled.div`
