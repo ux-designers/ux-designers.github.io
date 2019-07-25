@@ -4,15 +4,15 @@ import styled from "styled-components"
 import ItemsCarousel from "react-items-carousel"
 import Mindset from "../components/mindset"
 
-const noOfItems = 8
-const noOfCards = 4
-const autoPlayDelay = 3000
+const noOfItems = 9
+const noOfCards = 3
+const autoPlayDelay = 2000
 const chevronWidth = 80
 
 const Wrapper = styled.div`
-  padding: 0;
-  max-width: 100%;
-  margin: 0;
+  padding: 0 ${chevronWidth}px;
+  max-width: 1000px;
+  margin: 0 auto;
 `
 
 const SlideItem = styled.div`
@@ -56,7 +56,6 @@ export default class AutoPlayCarousel extends React.Component {
         <ItemsCarousel
           gutter={12}
           numberOfCards={noOfCards}
-          activePosition={"center"}
           activeItemIndex={this.state.activeItemIndex}
           requestToChangeActive={this.onChange}
           rightChevron={
