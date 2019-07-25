@@ -69,7 +69,7 @@ export default class AutoPlayCarousel extends React.Component {
             </button>
           }
           chevronWidth={chevronWidth}
-          outsideChevron={false}
+          outsideChevron
           showSlither={false}
           firstAndLastGutter={false}
         >
