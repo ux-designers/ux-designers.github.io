@@ -7,7 +7,7 @@ import Mindset from "../components/mindset"
 const noOfItems = 8
 const noOfCards = 4
 const autoPlayDelay = 3000
-const chevronWidth = 60
+const chevronWidth = 80
 
 const Wrapper = styled.div`
   padding: 0;
@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 `
 
 const SlideItem = styled.div`
-  height: 300px;
+  height: 400px;
   background: #eee;
   display: flex;
   align-items: center;
@@ -59,8 +59,16 @@ export default class AutoPlayCarousel extends React.Component {
           activePosition={"center"}
           activeItemIndex={this.state.activeItemIndex}
           requestToChangeActive={this.onChange}
-          rightChevron={">"}
-          leftChevron={"<"}
+          rightChevron={
+            <button className="ChevronRight">
+              <img alt="medium" src={require("../images/right.svg")} />
+            </button>
+          }
+          leftChevron={
+            <button className="ChevronLeft">
+              <img alt="medium" src={require("../images/left.svg")} />
+            </button>
+          }
           chevronWidth={chevronWidth}
           outsideChevron={false}
           showSlither={false}

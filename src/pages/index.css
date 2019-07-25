@@ -45,7 +45,7 @@
   line-height: 1;
 }
 
-.IntroGroup p, .IntroGroup ul, .Card p, .HowsTitle p, .Tool h6 p {
+.IntroGroup p, .IntroGroup ul, .Card p, .ChevronRight, .ChevronLeft, .HowsTitle p, .Tool h6 p {
   font-size: 14px;
   line-height: 1.5;
   margin: 10px auto;
@@ -189,8 +189,8 @@ body p {
 
 .MindsetGroup {
   width: 100%;
-  height: 600px;
-  overflow: hidden;
+  height: 500px;
+  overflow: visible;
 }
 
 .Mindset {
@@ -223,9 +223,8 @@ body p {
   flex: 0 0 auto;
   margin-right: 3px;
   width: 300px;
-  height: 400px;
+  height: 500px;
   padding-left: 60px;
-  padding-top: 30px;
 }
 
 @media (max-width: 640px) {
@@ -242,6 +241,62 @@ body p {
 
 .Card h6 {
   margin: 30px auto;
+}
+
+.ChevronRight {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  outline: 0;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+          box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+}
+
+.ChevronRight img {
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ChevronRight img:hover {
+  padding-left: 10px;
+}
+
+.ChevronLeft {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  outline: 0;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+          box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+}
+
+.ChevronLeft img {
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ChevronLeft img:hover {
+  padding-right: 10px;
 }
 
 .HowWeWork {
