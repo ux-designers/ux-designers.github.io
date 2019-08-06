@@ -40,19 +40,19 @@ class Header extends React.Component {
           <link rel="canonical" href="http://ux-design.rocks/" />
         </Helmet>
         <div className="HeaderGroup">
-          <Link to="/">
+          <Link to="/" className="headera">
             <img alt="logo" src={require("../images/logo.png")} height="35" />
           </Link>
-          <HashLink smooth to="/#about">
+          <HashLink className="headerb" smooth to="/#about">
             About
           </HashLink>
-          <HashLink smooth to="/#teams">
+          <HashLink className="headerc" smooth to="/#teams">
             Teams
           </HashLink>
-          <HashLink smooth to="/#works">
+          <HashLink className="headerd" smooth to="/#works">
             Works
           </HashLink>
-          <HashLink smooth to="/#career">
+          <HashLink className="headere" smooth to="/#career">
             Career
           </HashLink>
         </div>

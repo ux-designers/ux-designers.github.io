@@ -41,10 +41,31 @@
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
+  display: block;
 }
 
 .Header a:hover {
   text-decoration: underline;
+}
+
+.headera {
+  -ms-grid-column: 1;
+}
+
+.headerb {
+  -ms-grid-column: 2;
+}
+
+.headerc {
+  -ms-grid-column: 3;
+}
+
+.headerd {
+  -ms-grid-column: 4;
+}
+
+.headere {
+  -ms-grid-column: 5;
 }
 
 @media (max-width: 640px) {
