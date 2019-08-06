@@ -7,6 +7,7 @@ import Tools from "../components/tools"
 import Mindsets from "../components/mindsets"
 import Jobs from "../components/jobs"
 import Typist from "react-typist"
+import Mindsetsph from "../components/mindsetsph"
 
 const IndexPage = () => (
   <div>
@@ -76,6 +77,9 @@ const IndexPage = () => (
         </div>
         <div className="MindsetGroup">
           <Mindsets />
+        </div>
+        <div className="MindsetGroupPh">
+          <Mindsetsph />
         </div>
       </div>
     </div>

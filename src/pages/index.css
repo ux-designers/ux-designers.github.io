@@ -193,6 +193,25 @@ body p {
   overflow: visible;
 }
 
+@media (max-width: 640px) {
+  .MindsetGroup {
+    display: none;
+  }
+}
+
+.MindsetGroupPh {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .MindsetGroupPh {
+    display: block;
+    width: 100%;
+    height: 500px;
+    overflow: visible;
+  }
+}
+
 .Mindset {
   display: -webkit-box;
   display: -ms-flexbox;
