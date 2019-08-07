@@ -1,5 +1,4 @@
 import React from "react"
-import range from "lodash/range"
 import styled from "styled-components"
 import ItemsCarousel from "react-items-carousel"
 import Mindset from "../components/mindset"
@@ -14,20 +13,6 @@ const Wrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
 `
-
-const SlideItem = styled.div`
-  height: 400px;
-  background: #eee;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  font-weight: bold;
-`
-
-const carouselItems = range(noOfItems).map(index => (
-  <SlideItem key={index}>{index + 1}</SlideItem>
-))
 
 export default class AutoPlayCarousel extends React.Component {
   state = {

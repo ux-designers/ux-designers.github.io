@@ -1,8 +1,6 @@
 import React from "react"
 import Tool from "../components/tool"
 import ItemsCarousel from "react-items-carousel"
-import styled from "styled-components"
-import range from "lodash/range"
 
 export default class Tools extends React.Component {
   componentWillMount() {
