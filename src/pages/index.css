@@ -105,6 +105,13 @@ body p {
   background-size: cover;
 }
 
+@media (max-width: 640px) {
+  .StartHero {
+    background-size: auto auto;
+    background: url(../images/bgph.jpg);
+  }
+}
+
 .StartHeroGroup {
   padding: 150px 20px;
 }
