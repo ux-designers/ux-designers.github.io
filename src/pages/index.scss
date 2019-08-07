@@ -22,7 +22,7 @@ body {
   position: relative;
   background: url(../images/bg2.jpg);
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -418,6 +418,10 @@ hr {
   display: none;
   @include phone {
     display: block;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 30px;
   }
 }
 
