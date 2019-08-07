@@ -196,13 +196,11 @@ body {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
   cursor: pointer;
   user-select: none;
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
   text-align: center;
-  img {
-    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    &:hover {
-      padding-left: 10px;
-    }
+  &:hover {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -217,13 +215,51 @@ body {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
   cursor: pointer;
   user-select: none;
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
   text-align: center;
-  img {
-    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    &:hover {
-      padding-right: 10px;
-    }
+  &:hover {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.ChevronRightWhite {
+  @extend %p14;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  outline: 0;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+  &:hover {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.ChevronLeftWhite {
+  @extend %p14;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  outline: 0;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+  &:hover {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -374,6 +410,14 @@ hr {
   padding-top: 30px;
   @include phone {
     height: 500px;
+    display: none;
+  }
+}
+
+.ToolsGroupPh {
+  display: none;
+  @include phone {
+    display: block;
   }
 }
 
@@ -400,10 +444,9 @@ hr {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: 400px;
   height: 600px;
-  padding-left: 30px;
-  padding-top: 30px;
+  padding-left: 40px;
+  padding-top: 40px;
   background-color: yellow;
   position: relative;
   -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -426,11 +469,14 @@ hr {
       opacity: 0;
     }
   }
+  @include phone {
+    width: 400px;
+  }
 
   img {
     position: absolute;
     right: 50px;
-    bottom: 100px;
+    bottom: 80px;
     width: 200px;
   }
 

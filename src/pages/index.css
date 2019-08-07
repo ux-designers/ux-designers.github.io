@@ -45,7 +45,7 @@
   line-height: 1;
 }
 
-.IntroGroup p, .IntroGroup ul, .Card p, .ChevronRight, .ChevronLeft, .HowsTitle p, .Tool h6 p {
+.IntroGroup p, .IntroGroup ul, .Card p, .ChevronRight, .ChevronLeft, .ChevronRightWhite, .ChevronLeftWhite, .HowsTitle p, .Tool h6 p {
   font-size: 14px;
   line-height: 1.5;
   margin: 10px auto;
@@ -276,18 +276,14 @@ body p {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
   text-align: center;
 }
 
-.ChevronRight img {
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-.ChevronRight img:hover {
-  padding-left: 10px;
+.ChevronRight:hover {
+  width: 40px;
+  height: 40px;
 }
 
 .ChevronLeft {
@@ -304,18 +300,64 @@ body p {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
   text-align: center;
 }
 
-.ChevronLeft img {
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+.ChevronLeft:hover {
+  width: 40px;
+  height: 40px;
 }
 
-.ChevronLeft img:hover {
-  padding-right: 10px;
+.ChevronRightWhite {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  outline: 0;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+          box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+}
+
+.ChevronRightWhite:hover {
+  width: 60px;
+  height: 60px;
+}
+
+.ChevronLeftWhite {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  outline: 0;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+          box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+}
+
+.ChevronLeftWhite:hover {
+  width: 60px;
+  height: 60px;
 }
 
 .HowWeWork {
@@ -460,6 +502,17 @@ hr {
 @media (max-width: 640px) {
   .ToolsGroup {
     height: 500px;
+    display: none;
+  }
+}
+
+.ToolsGroupPh {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .ToolsGroupPh {
+    display: block;
   }
 }
 
@@ -489,10 +542,9 @@ hr {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: 400px;
   height: 600px;
-  padding-left: 30px;
-  padding-top: 30px;
+  padding-left: 40px;
+  padding-top: 40px;
   background-color: yellow;
   position: relative;
   -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -517,10 +569,16 @@ hr {
   opacity: 0;
 }
 
+@media (max-width: 640px) {
+  .Tool {
+    width: 400px;
+  }
+}
+
 .Tool img {
   position: absolute;
   right: 50px;
-  bottom: 100px;
+  bottom: 80px;
   width: 200px;
 }
 

@@ -8,6 +8,7 @@ import Mindsets from "../components/mindsets"
 import Jobs from "../components/jobs"
 import Typist from "react-typist"
 import Mindsetsph from "../components/mindsetsph"
+import ToolsPh from "../components/toolsbc"
 
 const IndexPage = () => (
   <div>
@@ -136,11 +137,14 @@ const IndexPage = () => (
       <div className="OurToolsContainer">
         <div className="ToolsTitle">
           <h2>our tools.</h2>
-          <p>Drag to the left see all our awesome tools ⟶</p>
+          <p>Sneak a peek to all our awesome tools ⟶</p>
         </div>
       </div>
       <div className="ToolsGroup">
         <Tools />
+      </div>
+      <div className="ToolsGroupPh">
+        <ToolsPh />
       </div>
     </div>
     <div className="Blog">
