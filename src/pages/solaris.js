@@ -42,6 +42,10 @@ const IndexPage = () => (
               <br />
               Venkata Gopi Thokala – Developer
               <br />
+              Andreas Kienle – Developer
+              <br />
+              Nico Blum – Developer
+              <br />
               Sarina Walter – UX/UI Designer
             </p>
           </div>
