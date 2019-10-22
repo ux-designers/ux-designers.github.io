@@ -23,7 +23,7 @@ const IndexPage = () => (
           <Typist>
             <span>Welcome.</span>
             <Typist.Backspace count={8} delay={200} />
-            <span>Herzlich Willkomen.</span>
+            <span>Herzlich Willkommen.</span>
             <Typist.Backspace count={19} delay={200} />
             <span>आपका स्वागत हे</span>
             <Typist.Backspace count={14} delay={200} />
