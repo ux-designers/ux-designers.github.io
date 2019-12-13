@@ -6,7 +6,7 @@ const Mindset = props => (
     <h6>
       {props.title} <br /> Mindset.
     </h6>
-    <p>{props.text}</p>
+    <p style={{margin:"0", width:"250px"}}>{props.text}</p>
   </div>
 )
 
