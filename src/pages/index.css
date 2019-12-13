@@ -265,6 +265,11 @@ body p {
   width: 250px;
 }
 
+.Card p {
+  width: 250px;
+  margin: 0;
+}
+
 .Card h6 {
   margin: 30px auto;
 }

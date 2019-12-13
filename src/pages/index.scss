@@ -182,6 +182,8 @@ body {
   }
   p {
     @extend %p14;
+    width: 250px;
+    margin:0;
   }
   h6 {
     @extend %h6;
