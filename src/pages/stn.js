@@ -32,30 +32,7 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
-              Sue Schneider – Product Owner 
-              <br />
-              STN Development Team
-              {/*  
-              <br />
-              Timo Bergmann – Architect
-              <br />
-              Christian Riedl – Developer
-              <br />
-              Fabian Hilz – Developer
-              <br />
-              Laurens von Assel – Developer
-              <br />
-              Osman Can Arikan – Developer
-              <br />
-              Nancy Kunath – Developer
-              <br />
-              Simon Nilius – Developer
-              <br />
-              */}
-              <br />
-              Astrid Kadel – UX/UI Designer
-              <br />
-              Nikola Freudensprung – UX/UI Designer
+            Application designed & developed by tools team, now in the responsibility of a different team.
             </p>
           </div>
           <div className="Brief">

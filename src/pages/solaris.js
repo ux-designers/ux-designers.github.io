@@ -32,21 +32,7 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
-              André Stern – Product Owner <br />
-              Birger Lehmann – Architect <br />
-              Smitha C. Patil – Co-Architect
-              <br />
-              Sebastian Protz – Developer
-              <br />
-              Supriya Raj – Developer
-              <br />
-              Venkata Gopi Thokala – Developer
-              <br />
-              Andreas Kienle – Developer
-              <br />
-              Nico Blum – Developer
-              <br />
-              Sarina Walter – UX/UI Designer
+            Application designed & developed by tools team, now in the responsibility of a different team.
             </p>
           </div>
           <div className="Brief">
