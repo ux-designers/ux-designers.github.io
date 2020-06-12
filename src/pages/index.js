@@ -40,7 +40,7 @@ const IndexPage = () => (
             <h2>the tools team.</h2>
             <p>
               Good to see you here! We are The Tools Team, an autonomous team
-              inside SAP located in the SAP Labs in Silicon Valley (USA) &
+              inside SAP located in the SAP Labs in Silicon Valley (USA), Paris & Nice (France),
               Bangalore (India) and in the SAP Headquarters (Germany). As our
               name says, we create tools. What kind of tools did you ask?
               Awesome tools to help people in SAP and clients out there to get
@@ -69,7 +69,7 @@ const IndexPage = () => (
               </li>
             </ul>
           </div>
-          <img alt="toolsteam" src={require("../images/diagram.png")} />
+          <img className="DiagramTools" alt="toolsteam" src={require("../images/diagram.png")} />
         </div>
       </div>
       <div className="OurMindset">
