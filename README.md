@@ -52,11 +52,30 @@ Welcome to the new built Tools Team Website. Here are some documentations to hel
           />
     ```
 
+## 👀 How to run localhost server
+
+1.  **Run the Localhost Server**
+
+    Launch the terminal and use this code below.
+
+    ```
+    npm start
+    ```
+
+1.  **Deploy the update to the master branch.**
+
+    Open the localhost
+
+    ```
+    http://localhost:8000/
+    ```
+
+
 ## 🚀 How to Publish
 
 1.  **Push the updates at the dev repository**
 
-    Push your updates to github, on the dev branch.
+    Push your updates to github, on the dev branch. (Do not publish it on the Master branch)
 
 1.  **Deploy the update to the master branch.**
 
