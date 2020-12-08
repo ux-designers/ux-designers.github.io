@@ -31,7 +31,8 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
-              Frank Imhof - Product Owner <br />
+              Frank Imhof - Product Owner 
+              <br />
               Matthias Kammerer - Support
               <br />
               Bernd Falkenberg - Architect
@@ -45,10 +46,6 @@ const IndexPage = () => (
               Gunnar Kiesewalter - Developer
               <br />
               Pavel Komardin - Developer
-              <br />
-              Matthias Scudlik - Developer
-              <br />
-              Gerhard Weigelt - Developer
               <br />
               Nikola Freudensprung - UX Designer
             </p>

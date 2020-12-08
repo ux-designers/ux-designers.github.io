@@ -137,7 +137,7 @@ const IndexPage = () => (
       <div className="OurToolsContainer">
         <div className="ToolsTitle">
           <h2>our tools.</h2>
-          <p>Sneak a peek to all our awesome tools ⟶</p>
+          <p>Sneak a peek to some of our custom build tools ⟶</p>
         </div>
       </div>
       <div className="ToolsGroup">
