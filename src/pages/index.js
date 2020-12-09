@@ -42,11 +42,11 @@ const IndexPage = () => (
               Good to see you here! We are The Tools Team, an autonomous team
               inside SAP located in the SAP Labs in Silicon Valley (USA), Paris & Nice (France), 
               Bangalore (India), Sofia (Bulgaria) and in the SAP Headquarters (Germany). 
-              </br>
+              <br></br>
               As our name says, we create tools. What kind of tools did you ask?
-              Awesome tools to help people in SAP and clients out there to get
-              their job done smarter and faster. Some of our topics are: CI/CD; Corporate Compliance; 
-              Portfolio and Capacity; Developer Productivity Tools.
+              Awesome tools to help people in SAP to get their job done smarter and faster. 
+              Some of our main topics are: CI/CD, Corporate Compliance, Portfolio & Capacity 
+              and Developer Productivity Tools.
             </p>
             <h6>
               <b>Our Values</b>

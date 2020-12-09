@@ -22,15 +22,31 @@ class Jobs extends React.Component {
         </div>
         <div className="JobSection">
           <h6>code.</h6>
-          {/* <Job
-            joblink="https://jobs.sap.com/job/WalldorfSt_-Leon-Rot-%28Associate%29-Full-Stack-Developer-%28mf%29-%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B-BW/522852101/?locale=de_DE"
-            jobtitle="Associate Full-Stack Developer (m/f)​​​​​"
+          <Job
+            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266576&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
+            jobtitle="Progressive Delivery (Senior) Developer (f/m/d)​​​​​"
           />
           <Job
-            joblink="https://performancemanager5.successfactors.eu/sf/jobreq?jobId=214176&company=SAP&username&_s.crb=cTSjSf2eRwLPIV1nEqRaOS7P9NE%253d"
-            jobtitle="Associate Architect (m/f)"
-          /> */}
-          <p>- Currently no vacancy available. -</p>
+            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266581&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
+            jobtitle="CI/CD Full Stack Developer (f/m/d)​​​​​"
+          />
+          <Job
+            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266575&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
+            jobtitle="CI/CD Full Stack (Senior) Developer (f/m/d)"
+          /> 
+          <Job
+            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=270142&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
+            jobtitle="Full Stack Developer (f/m/d)"
+          /> 
+          <Job
+            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266783&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
+            jobtitle="Full Stack Developer (f/m/d)"
+          /> 
+          <Job
+            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266785&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
+            jobtitle="Full Stack Developer (f/m/d)"
+          /> 
+          {/*<p>- Currently no vacancy available. -</p>*/}
         </div>
       </div>
     )
