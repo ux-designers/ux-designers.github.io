@@ -29,7 +29,7 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
-              Antonios Caracoussis - Product Manager <br />
+              Antonios Caracoussis - Product Owner <br />
               Sirius Development Team <br />
               Roman Kostka - UX Designer
               <br />

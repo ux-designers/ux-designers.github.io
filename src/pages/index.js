@@ -41,10 +41,12 @@ const IndexPage = () => (
             <p>
               Good to see you here! We are The Tools Team, an autonomous team
               inside SAP located in the SAP Labs in Silicon Valley (USA), Paris & Nice (France), 
-              Bangalore (India) and in the SAP Headquarters (Germany). As our
-              name says, we create tools. What kind of tools did you ask?
+              Bangalore (India), Sofia (Bulgaria) and in the SAP Headquarters (Germany). 
+              </br>
+              As our name says, we create tools. What kind of tools did you ask?
               Awesome tools to help people in SAP and clients out there to get
-              their job done smarter and faster.
+              their job done smarter and faster. Some of our topics are: CI/CD; Corporate Compliance; 
+              Portfolio and Capacity; Developer Productivity Tools.
             </p>
             <h6>
               <b>Our Values</b>
@@ -69,7 +71,7 @@ const IndexPage = () => (
               </li>
             </ul>
           </div>
-          <img alt="toolsteam" src={require("../images/diagram.png")} />
+          <img alt="toolsteam" src={require("../images/diagram-updated.png")} />
         </div>
       </div>
       <div className="OurMindset">

@@ -31,15 +31,13 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
-              Frank Imhof - Product Owner 
+              Matthias Kammerer - Consulting & Support
               <br />
-              Matthias Kammerer - Support
+              Bernd Falkenberg - Product Owner & Architect
               <br />
-              Bernd Falkenberg - Architect
+              Veronika Wehrle - Product Owner & Architect
               <br />
-              Veronika Wehrle - Architect
-              <br />
-              Christian Schneider - Architect
+              Christian Schneider - Product Owner & Architect
               <br />
               Jin Chen - Developer
               <br />
