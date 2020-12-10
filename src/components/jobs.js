@@ -14,13 +14,15 @@ class Jobs extends React.Component {
 
         <div className="JobSection">
           <h6>design.</h6>
-          <p>- Currently no vacancy available. -</p>
-          {/* <Job
-            joblink="https://jobs.sap.com/job/WalldorfSt_-Leon-Rot-User-Experience-Designer-%28InternshipWorking-Student%29-Job-BW/534251601/"
-            jobtitle="User Experience Designer (Internship/Working Student) Job​​"
-          /> */}
+     {/*<p>- Currently no vacancy available. -</p>*/}
+          <Job
+            joblink="https://jobs.sap.com/job/Walldorf-Intern-Working-Student-%28fmd%29-UIUX-Designer-BW/636723401/?locale=de_DE"
+            jobtitle="Intern / Working Student – User Experience Designer (f/m/d)​​"
+          /> 
         </div>
-        <div className="JobSection">
+
+
+        {/*<div className="JobSection">
           <h6>code.</h6>
           <Job
             joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266576&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
@@ -46,8 +48,8 @@ class Jobs extends React.Component {
             joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266785&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
             jobtitle="Full Stack Developer (f/m/d)"
           /> 
-          {/*<p>- Currently no vacancy available. -</p>*/}
-        </div>
+          <p>- Currently no vacancy available. -</p>
+    </div>*/}
       </div>
     )
   }
