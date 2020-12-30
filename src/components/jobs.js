@@ -17,17 +17,18 @@ class Jobs extends React.Component {
      {/*<p>- Currently no vacancy available. -</p>*/}
           <Job
             joblink="https://jobs.sap.com/job/Walldorf-Intern-Working-Student-%28fmd%29-UIUX-Designer-BW/636723401/?locale=de_DE"
-            jobtitle="Intern / Working Student – User Experience Designer (f/m/d)​​"
+            jobtitle="User Experience Designer – Intern/Working Student (f/m/d)​​"
           /> 
         </div>
 
 
         <div className="JobSection">
           <h6>code.</h6>
-          {/*<Job
-            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266576&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
-            jobtitle="Progressive Delivery (Senior) Developer (f/m/d)​​​​​"
+          {<Job
+            joblink="https://jobs.sap.com/job/Walldorf-DevOps-Engineer-%28fmd%29-for-Cumulus-Team-BW-69190/639204001/?locale=de_DE"
+            jobtitle="Full Stack Developer (f/m/d) for PPMS Team​​​​​"
           />
+          /*
           <Job
             joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266581&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
             jobtitle="CI/CD Full Stack Developer (f/m/d)​​​​​"
@@ -47,8 +48,8 @@ class Jobs extends React.Component {
           <Job
             joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266785&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
             jobtitle="Full Stack Developer (f/m/d)"
-          /> */}
-          <p>- Currently no vacancy available. -</p>
+          /> 
+          <p>- Currently no vacancy available. -</p> */}
     </div>
       </div>
     )
