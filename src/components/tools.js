@@ -35,12 +35,19 @@ export default class Tools extends React.Component {
             </button>
           }
         >
-          <Tool
-            class="Tool STN"
-            link="/stn"
-            title="SAP Transformation Navigator"
-            logo={require("../images/stn.svg")}
-            image={require("../images/stn.jpg")}
+           <Tool
+            class="Hyperspace"
+            link="/hyperspace"
+            title="Hyperspace"
+            logo={require("../images/ppms.svg")}
+            image={require("../images/ppms.jpg")}
+          />
+         <Tool
+            class="Tool PPMS"
+            link="/ppms"
+            title="PPMS Light"
+            logo={require("../images/ppms.svg")}
+            image={require("../images/ppms.jpg")}
           />
           <Tool
             class="Tool Sirius"
@@ -50,11 +57,32 @@ export default class Tools extends React.Component {
             image={require("../images/sirius.jpg")}
           />
           <Tool
-            class="Tool PPMS"
-            link="/ppms"
-            title="PPMS Light"
-            logo={require("../images/ppms.svg")}
-            image={require("../images/ppms.jpg")}
+            class="Tool IFR"
+            link="/ifr"
+            title="Innovation & Feature Repository"
+            logo={require("../images/ifr.svg")}
+            image={require("../images/ifr.jpg")}
+          />
+           <Tool
+            class="Tool Toby"
+            link="/tobi"
+            title="Tobi"
+            logo={require("../images/toby.svg")}
+            image={require("../images/toby.jpg")}
+          />
+           <Tool
+            class="Tool Lucid"
+            link="/lucid"
+            title="Lucid"
+            logo={require("../images/lucid.svg")}
+            image={require("../images/lucid.jpg")}
+          />
+           <Tool
+            class="Tool STN"
+            link="/stn"
+            title="SAP Transformation Navigator"
+            logo={require("../images/stn.svg")}
+            image={require("../images/stn.jpg")}
           />
           <Tool
             class="Tool Polaris"
@@ -63,40 +91,21 @@ export default class Tools extends React.Component {
             logo={require("../images/polaris.svg")}
             image={require("../images/polaris.jpg")}
           />
-          <Tool
-            class="Tool Lucid"
-            link="/lucid"
-            title="Lucid"
-            logo={require("../images/lucid.svg")}
-            image={require("../images/lucid.jpg")}
-          />
-          <Tool
+           <Tool
             class="Tool Solaris"
             link="/solaris"
             title="Solaris"
             logo={require("../images/solaris.svg")}
             image={require("../images/solaris.jpg")}
           />
+
+          {/*
           <Tool
-            class="Tool Toby"
-            link="/tobi"
-            title="Tobi"
-            logo={require("../images/toby.svg")}
-            image={require("../images/toby.jpg")}
-          />
-          <Tool
-            class="Tool IFR"
-            link="/ifr"
-            title="Innovation & Feature Repository"
-            logo={require("../images/ifr.svg")}
-            image={require("../images/ifr.jpg")}
-          />
-          <Tool
-            class="Tool STN"
-            link="/stn"
-            title="SAP Transformation Navigator"
-            logo={require("../images/stn.svg")}
-            image={require("../images/stn.jpg")}
+            class="Tool PPMS"
+            link="/ppms"
+            title="PPMS Light"
+            logo={require("../images/ppms.svg")}
+            image={require("../images/ppms.jpg")}
           />
           <Tool
             class="Tool Sirius"
@@ -105,12 +114,33 @@ export default class Tools extends React.Component {
             logo={require("../images/sirius.svg")}
             image={require("../images/sirius.jpg")}
           />
-          <Tool
-            class="Tool PPMS"
-            link="/ppms"
-            title="PPMS Light"
-            logo={require("../images/ppms.svg")}
-            image={require("../images/ppms.jpg")}
+           <Tool
+            class="Tool IFR"
+            link="/ifr"
+            title="Innovation & Feature Repository"
+            logo={require("../images/ifr.svg")}
+            image={require("../images/ifr.jpg")}
+          />
+           <Tool
+            class="Tool Toby"
+            link="/tobi"
+            title="Tobi"
+            logo={require("../images/toby.svg")}
+            image={require("../images/toby.jpg")}
+          />
+           <Tool
+            class="Tool Lucid"
+            link="/lucid"
+            title="Lucid"
+            logo={require("../images/lucid.svg")}
+            image={require("../images/lucid.jpg")}
+          />
+             <Tool
+            class="Tool STN"
+            link="/stn"
+            title="SAP Transformation Navigator"
+            logo={require("../images/stn.svg")}
+            image={require("../images/stn.jpg")}
           />
           <Tool
             class="Tool Polaris"
@@ -119,34 +149,15 @@ export default class Tools extends React.Component {
             logo={require("../images/polaris.svg")}
             image={require("../images/polaris.jpg")}
           />
-          <Tool
-            class="Tool Lucid"
-            link="/lucid"
-            title="Lucid"
-            logo={require("../images/lucid.svg")}
-            image={require("../images/lucid.jpg")}
-          />
-          <Tool
+           <Tool
             class="Tool Solaris"
             link="/solaris"
             title="Solaris"
             logo={require("../images/solaris.svg")}
             image={require("../images/solaris.jpg")}
           />
-          <Tool
-            class="Tool Toby"
-            link="/tobi"
-            title="Tobi"
-            logo={require("../images/toby.svg")}
-            image={require("../images/toby.jpg")}
-          />
-          <Tool
-            class="Tool IFR"
-            link="/ifr"
-            title="Innovation & Feature Repository"
-            logo={require("../images/ifr.svg")}
-            image={require("../images/ifr.jpg")}
-          />
+      */}
+
         </ItemsCarousel>
       </div>
     )
