@@ -50,9 +50,9 @@ const IndexPage = () => (
       </div>
       <div className="PortfolioGroup">
         <div className="Portfolio">
-          <img alt="portfolio" src={require("../images/hyperspace1.jpg")} />
+          <img alt="portfolio" src={require("../images/hyperspace1.png")} />
         
-          <img alt="portfolio" src={require("../images/hyperspace2.jpg")} />
+          <img alt="portfolio" src={require("../images/hyperspace2.png")} />
         </div>
       </div>
       <HashLink smooth to="/#works" className="Links">
