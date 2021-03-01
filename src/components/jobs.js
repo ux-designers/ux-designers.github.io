@@ -33,22 +33,6 @@ class Jobs extends React.Component {
             joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266581&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
             jobtitle="CI/CD Full Stack Developer (f/m/d)​​​​​"
           />
-          <Job
-            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266575&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
-            jobtitle="CI/CD Full Stack (Senior) Developer (f/m/d)"
-          /> 
-          <Job
-            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=270142&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
-            jobtitle="Full Stack Developer (f/m/d)"
-          /> 
-          <Job
-            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266783&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
-            jobtitle="Full Stack Developer (f/m/d)"
-          /> 
-          <Job
-            joblink="https://performancemanager5.successfactors.eu/acme?bplte_company=SAP&fbacme_n=recruiting&recruiting%5fns=joblisting%20detail&itrModule=rcm&recruiting_mode=266785&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=X1iWGt%2fHquPC0Xyq8LL1FB31cNi%2fA4fzvApjj%2fh4lrc%3d"
-            jobtitle="Full Stack Developer (f/m/d)"
-          /> 
           <p>- Currently no vacancy available. -</p> */}
     </div>
       </div>

@@ -18,10 +18,10 @@ const IndexPage = () => (
 
     <div className="IntroPorto">
       <div className="IntroPortoGroup">
-        <img alt="toolslogo" src={require("../images/stn.svg")} />
+        <img alt="toolslogo" src={require("../images/hyperspace_logo_b.png")} />
         <div className="IntroPortoTitle">
-          <h2>Everything you need in one place.</h2>
-          <h5>How we help customer plan their future SAP product map.</h5>
+          <h2>SAP’s CI/CD shared service</h2>
+          <h5>The Hyperspace Hub – The central point of information and access</h5>
         </div>
       </div>
       <div className="WhiteBG">
@@ -29,43 +29,30 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
-              John Doe - Product Manager <br />
-              Andre Schneider - Developer
-              <br />
-              Janis Müller - UX Designer
-              <br />
+            A collaborative effort between The Tools Team 
+            <br />
+            and the CI/CD Product Management.
+            <br />
+              Design and Concept by The Tools Team
             </p>
           </div>
           <div className="Brief">
             <h6>the brief.</h6>
             <p>
-              Picture this. It’s a normal day for SAP employees, their day is
-              full of juggling daily tasks and apps that correlate to respecting
-              tasks, browser full of tabs, all have different apps running
-              inside it. What if we can simplify the workflow? What if we can
-              create a platform to connect all the daily apps they use so it’s
-              easier for them to access all essential information that they
-              might need?
+            HyperSpace is SAP's CI/CD shared service which provides tools and services to simplify 
+            the life of SAP developers on their cloud product development journey.
+            The Hyperspace Hub  provides access to information along the user journey and acts as center of access for tools, 
+            services, support and communication around all CI/CD offerings.
+            You don’t know where to start, where to go to or whom to ask? Go to the Hyperspace Hub.
             </p>
           </div>
         </div>
       </div>
       <div className="PortfolioGroup">
         <div className="Portfolio">
-          <img alt="portfolio" src={require("../images/stn1.jpg")} />
-          <h5>all in one platform.</h5>
-          <p>
-            Bridge is a dashboard application that functions as its name says as
-            a bridge that connects all the apps that SAP employees use in their
-            daily work, brings them all together in one place. Bridge runs as a
-            browser-based dashboard application, which means it can be easily
-            accessible in any browser on any operating system.
-          </p>
-          <h2>
-            Users can decide on their own which widgets they want to incorporate
-            in their personal Bridge dashboard.
-          </h2>
-          <img alt="portfolio" src={require("../images/stn2.jpg")} />
+          <img alt="portfolio" src={require("../images/hyperspace1.jpg")} />
+        
+          <img alt="portfolio" src={require("../images/hyperspace2.jpg")} />
         </div>
       </div>
       <HashLink smooth to="/#works" className="Links">
