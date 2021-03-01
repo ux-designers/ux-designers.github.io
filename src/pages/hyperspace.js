@@ -10,7 +10,7 @@ const HashLink = props => genericHashLink(props, Link)
 const IndexPage = () => (
   <div>
     <Header />
-    <div className="HeroPortfolio STNP">
+    <div className="HeroPortfolio HYPERP">
       <div className="HeroGroup">
         <h1>Hyperspace</h1>
       </div>
@@ -21,7 +21,7 @@ const IndexPage = () => (
         <img alt="toolslogo" src={require("../images/hyperspace_logo_b.png")} />
         <div className="IntroPortoTitle">
           <h2>SAP’s CI/CD shared service</h2>
-          <h5>The Hyperspace Hub – The central point of information and access</h5>
+          <h5>The Hyperspace Hub – The central point of information and access.</h5>
         </div>
       </div>
       <div className="WhiteBG">
@@ -52,7 +52,8 @@ const IndexPage = () => (
         <div className="Portfolio">
           <img alt="portfolio" src={require("../images/hyperspace1.png")} />
         
-          <img alt="portfolio" src={require("../images/hyperspace2.png")} />
+         {/* <img alt="portfolio" src={require("../images/hyperspace2.png")} /> 
+         */}
         </div>
       </div>
       <HashLink smooth to="/#works" className="Links">

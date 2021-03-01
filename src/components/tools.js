@@ -33,10 +33,10 @@ export default class Tools extends React.Component {
             <button className="ChevronLeftWhite">
               <img alt="medium" src={require("../images/leftw.svg")} />
             </button>
-          }
-        >
+          } >
+        
           <Tool
-            class="Hyperspaace"
+            class="Hyperspace"
             link="/hyperspace"
             title="Hyperspace"
             logo={require("../images/hyperspace_logo_w.png")}
@@ -98,8 +98,6 @@ export default class Tools extends React.Component {
             logo={require("../images/solaris.svg")}
             image={require("../images/solaris.jpg")}
           />
-
-          {/*
            <Tool
             class="Tool PPMS"
             link="/ppms"
@@ -156,7 +154,7 @@ export default class Tools extends React.Component {
             logo={require("../images/solaris.svg")}
             image={require("../images/solaris.jpg")}
           />
-          */}
+          
         </ItemsCarousel>
       </div>
     )
