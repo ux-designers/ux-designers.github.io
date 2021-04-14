@@ -36,7 +36,7 @@ export default class Tools extends React.Component {
           } >
         
           <Tool
-            class="Hyperspace"
+            class="Tool Hyperspace"
             link="/hyperspace"
             title="Hyperspace"
             logo={require("../images/hyperspace_logo_w.png")}
@@ -97,6 +97,13 @@ export default class Tools extends React.Component {
             title="Solaris"
             logo={require("../images/solaris.svg")}
             image={require("../images/solaris.jpg")}
+          />
+          <Tool
+            class="Tool Hyperspace"
+            link="/hyperspace"
+            title="Hyperspace"
+            logo={require("../images/hyperspace_logo_w.png")}
+            image={require("../images/hyperspace.jpg")}
           />
            <Tool
             class="Tool PPMS"
