@@ -102,7 +102,7 @@ export default class Tools extends React.Component {
             class="Tool Hyperspace"
             link="/hyperspace"
             title="Hyperspace"
-            logo={require("../images/hyperspace_logo_w.png")}
+            logo={require("../images/hyperspace_logo_w.svg")}
             image={require("../images/hyperspace.jpg")}
           />
            <Tool
