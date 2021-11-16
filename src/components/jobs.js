@@ -14,11 +14,11 @@ class Jobs extends React.Component {
 
         <div className="JobSection">
           <h6>design.</h6>
-     <p>- Currently no vacancy available. -</p>
-          {/*<Job
-            joblink="https://jobs.sap.com/job/Walldorf-Intern-Working-Student-%28fmd%29-UIUX-Designer-BW/636723401/?locale=de_DE"
-            jobtitle="User Experience Designer – Intern/Working Student (f/m/d)​​"
-          /> */}
+     {/*<p>- Currently no vacancy available. -</p> */}
+          <Job
+            joblink="https://jobs.sap.com/job/Walldorf-Senior-User-Experience-Designer-%28fmd%29-69190/739352701/?locale=de_DE"
+            jobtitle="Senior User Experience Designer (f/m/d)​​"
+          /> 
         </div> 
 
 
