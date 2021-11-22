@@ -31,9 +31,9 @@ const IndexPage = () => (
           <div className="Group">
             <h6>teams info.</h6>
             <p>
-              Bernd Falkenberg - Product Owner & Architect
+            Matthias Kammerer - Consulting & Support
               <br />
-              Matthias Kammerer - Consulting & Support
+              Bernd Falkenberg - Product Owner & Architect
               <br />
               Christian Schneider - Product Owner & Architect
               <br />
