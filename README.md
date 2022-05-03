@@ -69,6 +69,17 @@ Welcome to the new built Tools Team Website. Here are some documentations to hel
     ```
     http://localhost:8000/
     ```
+    
+##  🤓 Working with the Terminal
+
+
+1.  **Keep Code Up-to-date**
+
+    To install new "packages" enter commmand in terminal:
+
+    ```
+    npm i
+    ```
 
 1.  **Cancel Commands in Terminal**
 
