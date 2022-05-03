@@ -83,7 +83,7 @@ Welcome to the new built Tools Team Website. Here are some documentations to hel
 
 1.  **Cancel Commands in Terminal**
 
-    if a command continously runs enter in terminal
+    if a command continously runs and does not stop enter in terminal
 
     ```
     cmd+c
