@@ -71,7 +71,7 @@ Welcome to the new built Tools Team Website. Here are some documentations to hel
     ```
     
 
-##🤓 Working with the Terminal
+## 🤓 Working with the Terminal
 
 
 1.  **Keep Code Up-to-date**
