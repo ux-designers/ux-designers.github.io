@@ -153,18 +153,19 @@ const IndexPage = () => (
       <div className="BlogContainer">
         <div className="BlogTitle">
           <h2>
-            read our <br />
-            thoughts.
+            our <br />
+            designs.
           </h2>
           <p>
             {" "}
             <b>
-              You don’t need to be a mindreader, <br />
-              it’s there on Medium.
+              Take a look on our design portfolio on Dribbble ⟶
             </b>
           </p>
+          <a href="https://dribbble.com/SAP_TOOLSTEAM"target="_blank" rel="noopener noreferrer">
+            <button className="DribbbleButton"> </button>
+           </a>
         </div>
-        <Blogs />
       </div>
     </div>
     {/* <div className="DividerGroup">

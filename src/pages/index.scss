@@ -604,13 +604,22 @@ hr {
   }
 }
 
+
+
 .Blogs {
+  
+  position: relative;
+  background: url(../images/dribbble_bg.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -ms-grid;
   display: grid;
   max-width: 900px;
   -ms-grid-columns: (1fr 1fr 1fr);
   grid-template-columns: (1fr 1fr 1fr);
-  grid-column-gap: 20px;
+  grid-column-gap: 0px;
   a {
     color: black;
     text-decoration: none;

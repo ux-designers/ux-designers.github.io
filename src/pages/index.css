@@ -673,7 +673,7 @@ hr {
 
 .Blog {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 @media (max-width: 640px) {
@@ -694,8 +694,13 @@ hr {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 0 20px;
+  grid-template-rows: auto auto;
+  padding: 20px 0px 120px 0px;
+  position: relative;
+  background-image: url(../images/dribbble_bg.png);
+  background-position:right bottom;
+  background-repeat: no-repeat;
+  background-size: 65%;
 }
 
 @media (max-width: 640px) {
@@ -708,6 +713,26 @@ hr {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+}
+
+.DribbbleButton {
+  width: 250px;
+  height: 70px;
+  border: 0;
+  cursor: pointer;
+  font-size: 2rem;
+  background-image: url("../images/dribbble.png");
+  background-size: cover;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.DribbbleButton:hover {
+  background-image: url("../images/dribbble.png");
+  background-size: cover;
+  -webkit-filter: brightness(90%);
+  /* Safari */
+  filter: brightness(90%);
 }
 
 .BlogTitle p {
